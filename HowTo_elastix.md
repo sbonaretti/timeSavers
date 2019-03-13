@@ -1,5 +1,9 @@
 # How to: elastix
 
+Software for medical image registration: http://elastix.isi.uu.nl/index.php
+
+### Add elastix path to environment in OSX
+
 In the terminal:
 
 - Type: ``cd``
