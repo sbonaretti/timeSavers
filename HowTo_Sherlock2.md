@@ -6,13 +6,9 @@ December 2018: interactive interface on the browser:
 https://www.sherlock.stanford.edu/docs/user-guide/ondemand/  
 To start: in browser copy/paste: https://login.sherlock.stanford.edu 
 
-### My folders
-- Data in scratch: `/scratch/users/sbonaret/data/`
-- Code in home:    `/home/users/sbonaret/pykneer/pykneer/code/python/pykneer`
-
 ### Connection  
 - On terminal:
-  -  ssh sbonaret@login.sherlock.stanford.edu + 2 steps authentication  
+  -  ssh <SUNetID>@login.sherlock.stanford.edu + 2 steps authentication  
 - On fetch:  
   - Hostname: login.sherlock.stanford.edu  
   - Port:     22  
