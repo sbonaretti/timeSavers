@@ -54,28 +54,5 @@ df = pd.DataFrame({
 library(ggplot2)
 ggplot(df, aes(x=cups_of_coffee, y=productivity)) + geom_line()
 ```
-  
-## JupyterLab table of content (toc)  
-From: https://github.com/jupyterlab/jupyterlab-toc  
-- Not working yet - requires JupyterLab 1.0
-```
-```
-  
-  
-  
-## Jupyter notebook extensions (no JupyterLab -> To test)
-
-From: https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html 
-
-**Installation**  
-```
-pip install jupyter_contrib_nbextensions
-jupyter contrib nbextension install --user
-```
-
-List of extensions: https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions.html  
-
-
-
-
+ 
 
