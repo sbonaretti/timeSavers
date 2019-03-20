@@ -29,4 +29,5 @@ Instructions from the YouTube series: https://www.youtube.com/watch?v=R9ERlUgvgw
 *Note* Classes are automatically disjointed  
  
 ## Check that ontology is consistent  
-- Top bar -> `Reasoner` -> `HermiT` -> `Start reasoner`
+- Top bar -> `Reasoner` -> `HermiT` -> `Start reasoner`  
+- Top bar -> `Reasoner` -> `HermiT` -> `Stop reasoner` (not sure when to do this)
