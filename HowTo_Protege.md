@@ -11,6 +11,7 @@ Instructions from the YouTube series: https://www.youtube.com/watch?v=R9ERlUgvgw
 ### Specify IRI
 - In the tab `Active ontology`, in `Ontology IRI`, change ontology name (e.g. leave the name, conclude with `myOntology.owl`)  
 ### Add classes and subclasses (slow way)  
+
 **Add classes**
 - In the tab `Entities`, select the tab `Classes`  
 - Click on `Add subclass` button (2 dots and a +) for a new class (`owl:Thing` is going to stay there)  
@@ -24,6 +25,6 @@ Instructions from the YouTube series: https://www.youtube.com/watch?v=R9ERlUgvgw
 
 ### Add classes and subclasses  (fast way)  
 - Right click on class name -> `Add subclassES...`  
-- Identation creates the hierarchy
+- Identation creates the hierarchy (see [here](http://protegeproject.github.io/protege/views/class-hierarchy/) under "Add SubClasses Popup Menu Item")  
 *Note* Classes are automatically disjointed  
  
