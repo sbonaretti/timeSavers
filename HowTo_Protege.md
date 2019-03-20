@@ -15,4 +15,10 @@ Instructions from the YouTube series: https://www.youtube.com/watch?v=R9ERlUgvgw
 - Click on `Add subclass` button (2 dots and a +) for a new class (`owl:Thing` is going to stay there)  
 
 ### Add subclasses  
-- Same as "Add classes", just click on the parent class name, before clicking on the `Add subclass` button
+- Same as "Add classes", just click on the parent class name before clicking on the `Add subclass` button  `D`
+
+### Make classes disjoint  
+- Go to `Description` (bottom-right panel), click on the `+` next to `Disjoint with` and select the classes   
+- Disjointing classes avoids overlap  
+*Note* If classes are created from: right click on class name -> `Add subclass...`, they are automatically disjoint  
+ 
