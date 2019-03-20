@@ -28,3 +28,5 @@ Instructions from the YouTube series: https://www.youtube.com/watch?v=R9ERlUgvgw
 - Identation creates the hierarchy (see [here](http://protegeproject.github.io/protege/views/class-hierarchy/) under "Add SubClasses Popup Menu Item")  
 *Note* Classes are automatically disjointed  
  
+## Check that ontology is consistent  
+- Top bar -> `Reasoner` -> `HermiT` -> `Start reasoner`
