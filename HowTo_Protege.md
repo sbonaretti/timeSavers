@@ -20,5 +20,5 @@ Instructions from the YouTube series: https://www.youtube.com/watch?v=R9ERlUgvgw
 ### Make classes disjoint  
 - Go to `Description` (bottom-right panel), click on the `+` next to `Disjoint with` and select the classes   
 - Disjointing classes avoids overlap  
-*Note* If classes are created from: right click on class name -> `Add subclassES...`, they are automatically disjoint  
+*Note* If classes are created from: right click on class name -> `Add subclassES...`, they are automatically disjointed  
  
