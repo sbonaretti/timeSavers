@@ -174,7 +174,9 @@ If the website templete does not include support for GA tracking number (from: h
 - Run `make html`
 
 ### 3. Checking tracking number was added  
-Open your `index.html` file in a text editor (e.g. Atom) and search for your GA code, or open `index.html` in Chrome, and then right-click -> `View page source`, and search for your GA code   
+Open your `index.html` file   
+-  in a text editor (e.g. Atom) and search for your GA code, or 
+-  in Chrome, then right-click -> `View page source`, and search for your GA code   
 
   
   
