@@ -146,7 +146,7 @@ Example for figure usage:
   
 ## Adding Google Analytics (GA) tracking number to website  
 
-### 1. Getting the tracking number on Google site 
+### 1. Getting the tracking number from GA
 (to be added)  
 
 ### 2. Adding tracking number to website 
@@ -170,6 +170,8 @@ If the website templete does not include support for GA tracking number:
   } catch(err) {}</script>
   {% endblock %}
   ```
+  Substitute `GAtrackingNumberHere` with your actual number (do not delete the quotes)  
+- Run `make html`
   
   
   
