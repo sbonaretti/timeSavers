@@ -144,6 +144,32 @@ Example for figure usage:
   - The link to the website appears above `Source`. It takes a few minutes to have the website up  
   - Note: double-check if `.nojekyll` is needed also in the main folder of the repository
   
+## Adding Google Analytics (GA) tracking number to website  
+
+### 1. Getting the tracking number on Google site 
+(to be added)  
+
+### 2. Adding tracking number to website 
+If the website template already includes support for GA tracking number, enter it as indicated in the template instructions (usually in `confy.py`).  
+
+If the website templete does not include support for GA tracking number:   
+- In the `source` folder, create a fodler `_templates` 
+- In `_templates`, create the file `layout.html` and copy/paste these lines:  
+  ```
+  {% extends "!layout.html" %}
+  {% block footer %}
+  {{ super() }}
+  <script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js'   type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+  try {
+  var pageTracker = _gat._getTracker("GAtrackingNumberHere");
+  pageTracker._trackPageview();
+  } catch(err) {}</script>
+  {% endblock %}
+  ```
   
   
   
