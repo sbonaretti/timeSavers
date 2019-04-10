@@ -152,7 +152,7 @@ Example for figure usage:
 ### 2. Adding tracking number to website 
 If the website template already includes support for GA tracking number, enter it as indicated in the template instructions (usually in `confy.py`).  
 
-If the website templete does not include support for GA tracking number:   
+If the website templete does not include support for GA tracking number (from: https://www.ericholscher.com/blog/2009/apr/5/adding-google-analytics-sphinx-docs/):   
 - In the `source` folder, create a fodler `_templates` 
 - In `_templates`, create the file `layout.html` and copy/paste these lines:  
   ```
@@ -172,6 +172,9 @@ If the website templete does not include support for GA tracking number:
   ```
   Substitute `GAtrackingNumberHere` with your actual number (do not delete the quotes)  
 - Run `make html`
-  
+
+### 3. Checking tracking number was added  
+Open your `index.html` file in a text editor (e.g. Atom) and search for your GA code, or open `index.html` in Chrome, and then right-click -> `View page source`, and search for your GA code   
+
   
   
