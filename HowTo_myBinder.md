@@ -42,7 +42,7 @@ Add this file to the repository (master branch, no subfolders)
 Copy the URL and the badges before launching (or after launching, just go back to the previous page)
 
 ## CREATING THE ENVIRONMENT
-Go to mybinder.com and fill out like this: 
+Go to [mybinder.com](https://mybinder.org/) and fill out like this: 
 - Github repository name or URL: put the master repository. Example: 
   ```
   https://github.com/sbonaretti/pyKNEEr (GitHub on the right)
