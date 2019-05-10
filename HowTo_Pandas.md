@@ -1,5 +1,10 @@
 # How to: Pandas
  
+### Create a dataframe  
+```
+dataframe = pd.DataFrame({'columnName': [list]})
+```
+ 
 ### Put values in pandas dataframe from list  
 ```
 df = pd.DataFrame.from_records(list of lists)
