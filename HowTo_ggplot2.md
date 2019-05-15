@@ -1,5 +1,26 @@
 # How To: ggplot2
 
+## Geometries  
+
+- Bar plot  
+  ```
+  ggplot(data = df, aes(x = colum_with_labels)) +
+         geom_bar(stat="count") + 
+  ```
+  - Text on bins  
+    ```
+    geom_text(stat='count', aes(label=..count..), vjust=-1, size = 1.5) +
+    ```
+
+**Notes**:
+- Differences between bar charts and histogram: Bar charts provide a visual presentation of categorical data, while histograms are used to plot density of interval (usually numeric) data (see [here](https://stackoverflow.com/questions/14138247/ggplot-geom-bar-vs-geom-histogram))
+
+
+## Background  
+```
+theme_bw() +
+```
+
 ## Axis 
 
 - Label 
@@ -25,23 +46,10 @@
          axis.text.y = [same as axis.text.x]) +  
   ```
 
-## Background  
+## Title
 ```
-theme_bw() +
+ggtitle("eNanoMapper ontologies") + 
+theme(plot.title = element_text(size=12, hjust = 0.5)) 
 ```
 
-## Geometries  
-
-- Bar plot  
-  ```
-  ggplot(data = df, aes(x = colum_with_labels)) +
-         geom_bar(stat="count") + 
-  ```
-  - Text on bins  
-    ```
-    geom_text(stat='count', aes(label=..count..), vjust=-1, size = 1.5) +
-    ```
-
-**Notes**:
-- Differences between bar charts and histogram: Bar charts provide a visual presentation of categorical data, while histograms are used to plot density of interval (usually numeric) data (see [here](https://stackoverflow.com/questions/14138247/ggplot-geom-bar-vs-geom-histogram))
 
