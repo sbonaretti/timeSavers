@@ -49,7 +49,7 @@ theme_bw() +
 ## Title
 ```
 ggtitle("eNanoMapper ontologies") + 
-theme(plot.title = element_text(size=12, hjust = 0.5)) 
+theme(plot.title = element_text(size=12, hjust = 0.5)) +
 ```
 
 
