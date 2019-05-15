@@ -29,3 +29,15 @@
 ```
 theme_bw() +
 ```
+
+## Geometries  
+
+- Histogram / Bar plot  
+  ```
+  ggplot(data = df, aes(x = colum_with_labels)) +
+         geom_bar(stat="count") + 
+  ```
+  - Text on bins  
+    ```
+    geom_text(stat='count', aes(label=..count..), vjust=-1, size = 1.5) +
+    ```
