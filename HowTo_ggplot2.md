@@ -6,18 +6,22 @@
   ```
   xlab("x") +
   ylab("y") +
-  ``` 
+  ```   
+- Label font size  
+  ```
+  theme (text = element_text(size = 8))+
+  ```
 
-- Size  
+- Lengths and ticks
   ```
   scale_x_continuous(limits=c(0, 9000), breaks=seq(0,9000,1000)) +
   scale_y_continuous(limits=c(0, 3000), breaks=seq(0,3000,1000)) +
   ```
   where `limits` sets the range and `breaks` sets the ticks
 
-- Font size  
+- Ticks font size
   ```
-  theme (axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.3, size = text_size), 
+  theme (axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.3, size = 8), 
          axis.text.y = [same as axis.text.x]) +  
   ```
 
