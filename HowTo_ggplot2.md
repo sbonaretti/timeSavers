@@ -17,7 +17,7 @@
   scale_x_continuous(limits=c(0, 9000), breaks=seq(0,9000,1000)) +
   scale_y_continuous(limits=c(0, 3000), breaks=seq(0,3000,1000)) +
   ```
-  where `limits` sets the range and `breaks` sets the ticks
+  where `limits` sets the range and `breaks` sets the tick step
 
 - Ticks font size
   ```
