@@ -25,3 +25,7 @@
          axis.text.y = [same as axis.text.x]) +  
   ```
 
+## Background  
+```
+theme_bw() +
+```
