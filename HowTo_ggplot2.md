@@ -19,7 +19,7 @@
   ```
   where `limits` sets the range and `breaks` sets the tick step
 
-- Ticks font size
+- Ticks text direction, horizontal and vertical adjustment, and font size
   ```
   theme (axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.3, size = 8), 
          axis.text.y = [same as axis.text.x]) +  
