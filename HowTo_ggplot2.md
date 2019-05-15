@@ -32,7 +32,7 @@ theme_bw() +
 
 ## Geometries  
 
-- Histogram / Bar plot  
+- Bar plot  
   ```
   ggplot(data = df, aes(x = colum_with_labels)) +
          geom_bar(stat="count") + 
@@ -41,3 +41,7 @@ theme_bw() +
     ```
     geom_text(stat='count', aes(label=..count..), vjust=-1, size = 1.5) +
     ```
+
+**Notes**:
+- Differences between bar charts and histogram: Bar charts provide a visual presentation of categorical data, while histograms are used to plot density of interval (usually numeric) data (see [here](https://stackoverflow.com/questions/14138247/ggplot-geom-bar-vs-geom-histogram))
+
