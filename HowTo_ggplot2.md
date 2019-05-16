@@ -52,4 +52,9 @@ ggtitle("eNanoMapper ontologies") +
 theme(plot.title = element_text(size=12, hjust = 0.5)) +
 ```
 
+### Text  
+```
+annotate(geom="text", x=6, y=5000, label=paste("Total number of classes: ", dim(df)[1]), color="black", size = 1.5) +
+```
+where `x` and `y` are positions (do not need to be linked to a sample; `paste` is to concatenate string and numerical variable 
 
