@@ -9,7 +9,11 @@
   ```
   - Text on bins  
     ```
-    geom_text(stat='count', aes(label=..count..), vjust=-1, size = 1.5) +
+    geom_text(stat='count', aes(label=..count..), vjust=-1, size = 1.5) +  
+    ```
+  - Order bins by count
+    ```
+    ggplot(data = df, aes(x = reorder(colum_name_in_df, colum_name_in_df, function(x)-length(x)))) +
     ```
 
 **Notes**:
