@@ -1,7 +1,7 @@
 # How to: python  
 
 ### Lists
-- Add array in one cell  
+- Add array to one single cell  
   ```
   list.append(array)
   ```
