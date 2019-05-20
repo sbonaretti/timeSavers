@@ -11,7 +11,7 @@
   ```
 
 ### Strings  
-- Look for substring in string:  
+- Find substring in string:  
   - In general (returns the index for the first letter):
     ```
     main_string = "ciao"
