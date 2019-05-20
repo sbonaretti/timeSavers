@@ -28,9 +28,9 @@
     if sub_string in main_string:
         print ("found")
     ```
-- Substitute string:  
+- Substitute sub_string in string:  
   ```
-  main_string = main_string.replace('sub_string', '')
+  main_string = main_string.replace('old_sub_string', 'new_sub_string')
   ```
 
 ### Packages  
