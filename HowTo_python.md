@@ -28,6 +28,10 @@
     if sub_string in main_string:
         print ("found")
     ```
+- Substitute string:  
+  ```
+  main_string = main_string.replace('sub_string', '')
+  ```
 
 ### Packages  
 
