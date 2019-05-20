@@ -28,6 +28,10 @@
     if sub_string in main_string:
         print ("found")
     ```
+- Find overlap between two list of strings (returns a list with overlapping terms):  
+  ```
+  overlap = list(set(list_of_strings_1) & set(list_of_strings_2))
+  ```
 - Substitute sub_string in string:  
   ```
   main_string = main_string.replace('old_sub_string', 'new_sub_string')
