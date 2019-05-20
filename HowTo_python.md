@@ -25,11 +25,11 @@
 
 ### Strings  
 - Look for substring in string (returns the index for the first letter):  
-  ```
-  main_string = "ciao"
-  sub_string = "ao"
-  main_string.find(sub_string)
-  ```
+    ```
+    main_string = "ciao"
+    sub_string = "ao"
+    main_string.find(sub_string)
+    ```
   - In `if` (returns -1 if string not found): 
     ```
     if main_string.find(sub_string) != -1:
