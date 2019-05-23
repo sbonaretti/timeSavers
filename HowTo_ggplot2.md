@@ -24,8 +24,8 @@
         - Same for all points 
         ```
         geom_point(size=2)
-        ```
-        - Depending on variable 
+        ```  
+        - Depending on variable   
         ```
         geom_point(aes(size = variable))
         ```
