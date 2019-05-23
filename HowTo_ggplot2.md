@@ -20,6 +20,17 @@
   ggplot(data = df, aes(x=x_axis, y=caffeine, color=point_color)) + 
         geom_point() + 
   ```
+  - Size  
+        - Same for all points 
+        ```
+        geom_point(size=2)
+        ```
+        - Depending on variable 
+        ```
+        geom_point(aes(size = variable))
+        ```
+  
+  
 
 **Notes**:
 - Differences between bar charts and histogram: Bar charts provide a visual presentation of categorical data, while histograms are used to plot density of interval (usually numeric) data (see [here](https://stackoverflow.com/questions/14138247/ggplot-geom-bar-vs-geom-histogram))
