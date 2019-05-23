@@ -68,3 +68,14 @@ annotate(geom="text", x=6, y=5000, label=paste("Total number of classes: ", dim(
 where `x` and `y` do not need to be linked to a sample; `paste` concatenates strings and numerical variables   
 Note: `geom_text` is much slower
 
+### Legend
+```
+# legend 
+               theme(legend.position  = c(0.82, 0.35), # position inside graph
+                     legend.title     = element_text(size=legend_title_font_size), # title font size
+                     legend.text      = element_text(size=legend_font_size),       # text font size
+                     legend.key.size  = unit(0.015,"in"),                          # legend size
+                     legend.margin    = margin(0,0,0,0, unit="cm"),                # legend margin
+                     legend.spacing.y = unit(0.2, "cm")) +                         # spacing between the two legends
+               labs(alpha="overlap")   
+```
