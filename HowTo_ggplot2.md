@@ -2,7 +2,7 @@
 
 ## Geometries  
 
-- Bar plot  
+- geom_bar  
   ```
   ggplot(data = df, aes(x = colum_with_labels)) +
          geom_bar(stat="count") + 
@@ -14,7 +14,12 @@
   - Order bins by count
     ```
     ggplot(data = df, aes(x = reorder(colum_name_in_df, colum_name_in_df, function(x)-length(x)))) +
-    ```
+    ```    
+- geom_point
+  ```
+  ggplot(data = df, aes(x=x_axis, y=caffeine, color=point_color)) + 
+        geom_point() + 
+  ```
 
 **Notes**:
 - Differences between bar charts and histogram: Bar charts provide a visual presentation of categorical data, while histograms are used to plot density of interval (usually numeric) data (see [here](https://stackoverflow.com/questions/14138247/ggplot-geom-bar-vs-geom-histogram))
