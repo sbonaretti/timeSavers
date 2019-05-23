@@ -76,6 +76,6 @@ Note: `geom_text` is much slower
                      legend.text      = element_text(size=legend_font_size),       # text font size
                      legend.key.size  = unit(0.015,"in"),                          # legend size
                      legend.margin    = margin(0,0,0,0, unit="cm"),                # legend margin
-                     legend.spacing.y = unit(0.2, "cm")) +                         # spacing between the two legends
+                     legend.spacing.y = unit(0.2, "cm")) +                         # spacing between two legends
                labs(color="new_title")                                             # change title (color, alpha, fill)
 ```
