@@ -77,5 +77,5 @@ Note: `geom_text` is much slower
                      legend.key.size  = unit(0.015,"in"),                          # legend size
                      legend.margin    = margin(0,0,0,0, unit="cm"),                # legend margin
                      legend.spacing.y = unit(0.2, "cm")) +                         # spacing between the two legends
-               labs(alpha="overlap")                                               # change title of legend "overlap" (it was as.character(overlap))
+               labs(color="new_title")                                             # change title (color, alpha, fill)
 ```
