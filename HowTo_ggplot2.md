@@ -79,3 +79,10 @@ Note: `geom_text` is much slower
                      legend.spacing.y = unit(0.2, "cm")) +                         # spacing between two legends
                labs(color="new_title")                                             # change title (color, alpha, fill)
 ```
+- Change legend order
+  ```
+  e.g. point_geom
+       scale_color_manual(labels = c("F", "A", "I", "R"), # it was "A", "F", "I", "R"
+                          breaks = c("F", "A", "I", "R")  # change colors according to new labels
+                          ) + 
+  ```
