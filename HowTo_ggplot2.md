@@ -39,8 +39,8 @@ theme_bw() +
 
 - Lengths and ticks
   ```
-  scale_x_continuous(limits=c(0, 9000), breaks=seq(0,9000,1000)) +
-  scale_y_continuous(limits=c(0, 3000), breaks=seq(0,3000,1000)) +
+  scale_x_continuous(limits=c(0, 9000), breaks=seq(0,9000,1000), labels=new_name_of_ticks) +
+  scale_y_continuous[same as scale_x_continuous] +
   ```
   where `limits` sets the range and `breaks` sets the tick step
 
