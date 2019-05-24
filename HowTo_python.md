@@ -36,6 +36,7 @@
     ```  
   - Get index:  
     ```
+    index = list_of_string.index(string)
     ```
 - Find overlap between two list of strings (returns a list with overlapping terms):  
   ```
