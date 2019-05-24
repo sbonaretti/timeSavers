@@ -28,6 +28,15 @@
     if sub_string in main_string:
         print ("found")
     ```
+- Find string in list of strings:  
+  - In `if`:
+    ```
+    if string in list_of_string:
+        print ("found")
+    ```  
+  - Get index:  
+    ```
+    ```
 - Find overlap between two list of strings (returns a list with overlapping terms):  
   ```
   overlap = list(set(list_of_strings_1) & set(list_of_strings_2))
