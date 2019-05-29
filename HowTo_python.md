@@ -54,7 +54,10 @@
 - To remove a package: `pip uninstall <packageName>`
 - To list packages: `pip freeze`  
 
-### Python 
+### Python version 
 - To know python version: `python --version`
+
+### Kill python processes
+- In terminal: `pkill -f python`
 
 
