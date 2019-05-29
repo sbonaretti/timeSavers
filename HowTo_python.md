@@ -57,7 +57,7 @@
 ### Python version 
 - To know python version: `python --version`
 
-### Kill python processes
+### Kill all python processes
 - In terminal: `pkill -f python`
 
 
