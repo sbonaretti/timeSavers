@@ -9,6 +9,13 @@
   ```
   list.extend(array)
   ```
+- Check if element is empty:  
+  ```
+  for i in range (0, len(list)):
+    if not list[i]:
+        print (i)
+  ```
+  
 
 ### Strings  
 - Find substring in string:  
