@@ -99,8 +99,23 @@ Easy way using pptx:
   \usepackage{multirow}	
   
   % in the document
-  \multicolumn{n}{|c|}{text} % n = number of cells to merge, |c| = left and right border and center text
+  \multicolumn{n}{|c|}{text} % n = number of cells to merge, |c| = left and right border and center text  
+  ```  
+- Fixed width table columns with text raggedright/centered/raggedleft  
   ```
+  % in header
+  \usepackage{array}
+  \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+  \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+  \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+  
+  % in text
+  \begin{tabular}{| c | L{3cm} | C{3cm} | R{3cm} |}
+  ...
+  \end{tabular}
+  ```
+  
+
   
 
 ## References  
