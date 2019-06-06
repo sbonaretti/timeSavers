@@ -1,11 +1,19 @@
 # How To: Latex
 
-## Compute the number of words
+## During writing and editing
+### Compute the number of words
 In the *command line*: 
 ```
 texcount completeFileName
 ```
 texcount is one of texmaker's packages
+
+### Highlight text  
+```
+\usepackage{color,soul}
+...
+\hl{Text to be highlighted}
+```
 
 
 ## Change lateral margin  
@@ -86,9 +94,11 @@ Easy way using pptx:
   \label{table:table_label}
 \end{table}
 ```
+
 ### Table reference in text
 ```
 (Table \ref{table:table_label})
+
 ```
 ### Table tricks  
 - Ident in cell:  
@@ -125,9 +135,6 @@ Easy way using pptx:
   \end{tabular}
   ```
   
-
-  
-
 ## References  
 
 ### Export bibliograpy from Mendeley  
