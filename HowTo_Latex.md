@@ -1,7 +1,7 @@
 # How To: Latex
 
 ## Compute the number of words
-In the command line: 
+In the *command line*: 
 ```
 texcount completeFileName
 ```
