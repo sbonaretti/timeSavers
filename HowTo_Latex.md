@@ -55,15 +55,25 @@ Easy way using pptx:
 ```
 
 
-## Icon links
-```
-% in the header
-\usepackage{fontawesome}
+## Links  
+- Showing link
+  ```
+  \url{https://doi.org/10.1016/j.media.2014.05.008}
+  ```
+- Not showing link  
+  ```
+  \href{https://www.eosc-hub.eu/}{The European Open Science Cloud}
+  ```
 
-% in the document
-\faGithub
-\faCode
-```
+- Icons
+  ```
+  % in the header
+  \usepackage{fontawesome}
+
+  % in the document
+  \faGithub
+  \faCode
+  ```
 
 ## Tables
 ```
