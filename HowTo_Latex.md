@@ -1,14 +1,14 @@
 # How To: Latex
 
 ## During writing and editing
-### Compute the number of words
+#### Compute the number of words
 In the *command line*: 
 ```
 texcount completeFileName
 ```
 texcount is one of texmaker's packages
 
-### Highlight text  
+#### Highlight text  
 ```
 \usepackage{color,soul}
 ...
@@ -43,7 +43,7 @@ Easy way using pptx:
   - Tools -> Rectangular selection --> select the area  
   - Tools -> Crop
 
-### Figure inclusion
+#### Figure inclusion
 ```
 % in the header
 \usepackage{graphicx} % to include figure
@@ -57,7 +57,7 @@ Easy way using pptx:
 \end{figure}
 ```
 
-### Figure reference in text
+#### Figure reference in text
 ```
 (Fig. \ref{fig:figure_label})
 ```
