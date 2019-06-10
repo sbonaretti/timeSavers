@@ -21,6 +21,11 @@
   del array[1]
   -> 1
   ```
+- Check if element is already in list:   
+  ```
+  if element in list:
+  ```
+  
   
 
 ### Strings  
