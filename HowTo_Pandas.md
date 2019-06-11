@@ -55,13 +55,16 @@
 
   
 ## Query database
-- find cells with a certain value
-  Four options:  
+- Find cells with a certain value. Four options:  
   ```
   open_repro.query('link_to_open_source_publication != "NaN"').link_to_open_source_publication.count()
   open_repro.where(open_repro.link_to_open_source_publication != "NaN").link_to_open_source_publication.count()
   open_repro.loc[open_repro['link_to_open_source_publication'] != 'NaN'].count()
   open_repro[~open_repro.link_to_open_source_publication.isnull()].count()
+  ```  
+- Select rows with multiple 
+  ```
+  b = df1[ (df1["disease"] == "Parkinson's disease") & (df1["organ"] == "frontal lobe") ]
   ```
 
 
