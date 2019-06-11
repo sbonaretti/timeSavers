@@ -60,6 +60,11 @@
   n_of_rows = df.shape[0] 
   n_of_column = df.shape[1]
   ```
+- Get column names in a list   
+  ```
+  list(df.columns)
+  ```
+
 - Find cells with a certain value. Four options:  
   ```
   open_repro.query('link_to_open_source_publication != "NaN"').link_to_open_source_publication.count()
