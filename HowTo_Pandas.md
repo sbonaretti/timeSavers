@@ -62,7 +62,7 @@
   open_repro.loc[open_repro['link_to_open_source_publication'] != 'NaN'].count()
   open_repro[~open_repro.link_to_open_source_publication.isnull()].count()
   ```  
-- Select rows with multiple 
+- Select rows on multiple conditions
   ```
   b = df1[ (df1["disease"] == "Parkinson's disease") & (df1["organ"] == "frontal lobe") ]
   ```
