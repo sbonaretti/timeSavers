@@ -1,42 +1,50 @@
 # How to: Pandas
  
-### Create a dataframe  
-```
-dataframe = pd.DataFrame({'columnName': [list]})
-```
+## Creating dataframe
+
+- Create a dataframe  
+  ```
+  dataframe = pd.DataFrame({'columnName': [list]})
+  ```
  
-### Put values in pandas dataframe from list  
-```
-df = pd.DataFrame.from_records(list of lists)
-```
+- Put values in pandas dataframe from list  
+  ```
+  df = pd.DataFrame.from_records(list of lists)
+  ```
 
-### Assign column labels
-```
-df.columns = tags_string
-```
+- Assign column labels
+  ```
+  df.columns = tags_string
+  ```
     
-### Start index from 1
-```
-df.index = np.arange(1,len(df)+1) # start counting rows from 1
-```
+  
+## Manipulating dataframe
+- Start index from 1
+  ```
+  df.index = np.arange(1,len(df)+1) # start counting rows from 1
+  ```
+- Move column to first column
+  ```
+  col = df['column_label']
+  df.drop(labels=['column_label'], axis=1, inplace=True)
+  df.insert(0,'column_label',col)
+  ```
+- 
 
-### Move column to first column
-```
-col = df['column_label']
-df.drop(labels=['column_label'], axis=1, inplace=True)
-df.insert(0,'column_label',col)
-```
 
-### Display all rows and columns
-```
-dataDimension = df.shape # get number of rows
-pd.set_option("display.max_rows",dataDimension[0])
-pd.set_option("display.max_columns",dataDimension[1])
-```
-### Display dataframe 
-```
-display(df)
-```
+## Display dataframe  
+- all rows and columns
+  ```
+  dataDimension = df.shape # get number of rows
+  pd.set_option("display.max_rows",dataDimension[0])
+  pd.set_option("display.max_columns",dataDimension[1])
+  ```
+- Display dataframe 
+  ```
+  display(df)
+  # or
+  df
+  ```
 
 ### Assign name to dataframe
 ```
