@@ -111,7 +111,7 @@ Easy way using pptx:
   \usepackage{makecell}	
   
   % in the document
-  \makecell{first part \\ second part}
+  \makecell[r]{first part \\ second part}
   ```
 - Merge table cells:  
   ```
