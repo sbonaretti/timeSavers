@@ -54,7 +54,12 @@
   ```
 
   
-## Query database
+## Query database  
+- Get number for rows and columns
+  ```
+  n_of_rows = df.shape[0] 
+  n_of_column = df.shape[1]
+  ```
 - Find cells with a certain value. Four options:  
   ```
   open_repro.query('link_to_open_source_publication != "NaN"').link_to_open_source_publication.count()
