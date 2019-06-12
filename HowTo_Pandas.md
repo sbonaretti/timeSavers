@@ -37,7 +37,10 @@
   ```
   df1.rename (columns={"A" : "first_column", "B": "second_column"}, inplace=True)
   ```
-
+- Extract column as list  
+  ```
+  new_list = df['column_name'].tolist()
+  ```
 
 ## Display  
 - Full dataframe 
