@@ -7,6 +7,10 @@
   %load_ext rpy2.ipython # installed as pip install rpy2
   ```
 - Install a new library:  
+  ```
+  %%R
+  install.packages("ggplot2", repos='http://cran.us.r-project.org', quiet=TRUE)
+  ```
 - Start R session: 
   ```
   %%R -i df -w 6 -h 3 --units in -r 300 # -i is the input (e.g. pandas dataframe)
