@@ -9,7 +9,7 @@
 - Install a new library:  
   ```
   %%R
-  install.packages("ggplot2", repos='http://cran.us.r-project.org', quiet=TRUE)
+  install.packages("ggplot2", repos='http://cran.us.r-project.org', quiet=TRUE) 
   ```
 - Start R session: 
   ```
