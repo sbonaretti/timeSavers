@@ -1,5 +1,21 @@
 # How To: ggplot2
 
+- In Jupyter notebook's header:
+  ```
+  import os
+  os.environ['R_HOME'] = '/Library/Frameworks/R.framework/Resources' # put here your own R directory
+  %load_ext rpy2.ipython # installed as pip install rpy2
+  ```
+- Install a new library:  
+- Start R session: 
+  ```
+  %%R -i df -w 6 -h 3 --units in -r 300 # -i is the input (e.g. pandas dataframe)
+                                        # -w is the figure width
+                                        # -h is the figure height                                       
+  library(ggplot2)
+  ```
+
+
 ## Geometries  
 
 - **geom_bar**  
