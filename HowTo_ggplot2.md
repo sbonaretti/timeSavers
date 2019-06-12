@@ -46,13 +46,13 @@ Note: Never put anything (e.g. comment) before the `%%R`, otherwise `UsageError:
   ```
   - Size  
         - Same for all points   
-        ```  
-        geom_point(size=2)  
-        ```    
+          ```  
+          geom_point(size=2)  
+          ```    
         - Depending on variable   
-        ```
-        geom_point(aes(size = variable))
-        ```
+          ```
+          geom_point(aes(size = variable)) # aes(size = variable) can be also added to ggplot 
+          ```
   
  
 
