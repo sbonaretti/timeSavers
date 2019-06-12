@@ -114,7 +114,8 @@ Note: `geom_text` is much slower
   ```
 - Manipulate two legends (e.g. color and size)  
   ```
-  tba
+  labs(color="new_title")
+  labs(size="new_title")
   ```
 - Change legend order
   ```
