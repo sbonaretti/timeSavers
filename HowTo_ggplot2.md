@@ -18,7 +18,7 @@
                                         # -h is the figure height                                       
   library(ggplot2)
   ```
-Note: Never not put anything (e.g. comment) before the `%%R`, otherwise `UsageError: Line magic function `%%R` not found.` 
+Note: Never put anything (e.g. comment) before the `%%R`, otherwise `UsageError: Line magic function `%%R` not found.` 
 
 
 ## Geometries  
