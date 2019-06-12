@@ -81,15 +81,20 @@ where `x` and `y` do not need to be linked to a sample; `paste` concatenates str
 Note: `geom_text` is much slower
 
 ### Legend
-```
-theme(legend.position  = c(0.82, 0.35), # position inside graph
-      legend.title     = element_text(size=legend_title_font_size), # title font size
-      legend.text      = element_text(size=legend_font_size),       # text font size
-      legend.key.size  = unit(0.2,"cm"),                            # distance among legend items
-      legend.margin    = margin(0,0,0,0, unit="cm"),                # legend margin
-      legend.spacing.y = unit(0.2, "cm")) +                         # spacing between two legends
-labs(color="new_title")                                             # change title (color, alpha, fill)
-```
+- Manipulate one legend (e.g. color)
+  ```
+  theme(legend.position  = c(0.82, 0.35), # position inside graph
+        legend.title     = element_text(size=legend_title_font_size), # title font size
+        legend.text      = element_text(size=legend_font_size),       # text font size
+        legend.key.size  = unit(0.2,"cm"),                            # distance among legend items
+        legend.margin    = margin(0,0,0,0, unit="cm"),                # legend margin
+        legend.spacing.y = unit(0.2, "cm")) +                         # spacing between two legends
+  labs(color="new_title")                                             # change title (color, alpha, fill)
+  ```
+- Manipulate two legends (e.g. color and size)  
+  ```
+  tba
+  ```
 - Change legend order
   ```
   e.g. point_geom
