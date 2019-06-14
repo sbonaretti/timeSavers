@@ -27,13 +27,12 @@
   plt.show()
   ```
 
-### Scatter plot
-  ```
-  fig     = plt.figure()
-  fig, ax = plt.subplots(nrows=1, ncols=1)
-
-  ```
-  
+### Plots
+  - Figure   
+    ```
+    fig     = plt.figure()
+    fig, ax = plt.subplots(nrows=1, ncols=1)
+    ```
   - Errorbar
     ```
     ax.errorbar(x, average, yerr=stdDev, linestyle='None', marker='o')
