@@ -10,6 +10,7 @@
   plt.rcParams['figure.figsize'] = [figureWidth, figLength] # figsize=() seems to be ineffective on notebooks
   fig     = plt.figure() 
   ```
+
 - Subplot 
   ```
   
@@ -21,7 +22,36 @@
   ax1.set_title(movingRoot + " - Slice: " + str(sliceID[a]))
   
   ```
+- Show plot  
+  ```
+  plt.show()
+  ```
+
+# Scatter plot
+  ```
+  fig     = plt.figure()
+  fig, ax = plt.subplots(nrows=1, ncols=1)
+
+  ```
   
+  - Errorbar
+    ```
+    ax.errorbar(x, average, yerr=stdDev, linestyle='None', marker='o')
+    ```
+  - Ticks  
+    ```
+    plt.xticks(x) # spacing
+    ax.set_xticklabels(imageNames, rotation='vertical')
+    ```
+  - Axis
+    ```
+    ax.set_ylabel('thickness [mm]')
+    ```
+
+
+
+## Images
+
 - Image and mask
   ```
   ax1.imshow(slice_moving_py,   'gray', interpolation=None, origin='lower')                            # image
