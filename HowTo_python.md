@@ -25,6 +25,11 @@
   ```
   if element in list:
   ```
+- Convert list of lists to one single list  
+  ```
+  from itertools import chain
+  long_list = list(chain.from_iterable(list_of_lists))
+  ```
   
   
 
