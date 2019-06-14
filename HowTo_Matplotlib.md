@@ -27,7 +27,7 @@
   plt.show()
   ```
 
-# Scatter plot
+### Scatter plot
   ```
   fig     = plt.figure()
   fig, ax = plt.subplots(nrows=1, ncols=1)
@@ -50,7 +50,7 @@
 
 
 
-## Images
+### Images
 
 - Image and mask
   ```
