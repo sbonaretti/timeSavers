@@ -125,4 +125,4 @@ Note: `geom_text` is much slower
                           ) + 
   ```
 - Remove a legend  
-  Add the items that creates the legend in `geom_xxx`, not in the `aes`
+  Add the item that creates the legend in `geom_xxx`, but not in the `aes`
