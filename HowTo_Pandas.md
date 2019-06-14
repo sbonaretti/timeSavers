@@ -41,6 +41,10 @@
   ```
   new_list = df['column_name'].tolist()
   ```
+- Transpose dataframe  
+  ```
+  df = df.T
+  ```
 
 ## Display  
 - Full dataframe 
