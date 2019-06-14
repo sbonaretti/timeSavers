@@ -124,3 +124,5 @@ Note: `geom_text` is much slower
                           breaks = c("F", "A", "I", "R")  # change colors according to new labels
                           ) + 
   ```
+- Remove a legend  
+  Add the items that creates the legend in `geom_xxx`, not in the `aes`
