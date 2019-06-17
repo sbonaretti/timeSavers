@@ -17,6 +17,11 @@
                                         # -w is the figure width
                                         # -h is the figure height                                       
   library(ggplot2)
+  ```  
+- Save the plot  
+  ```
+  %%R 
+  ggsave("file_name.pdf", plot = last_plot(), width=3, height=4, dpi=300)
   ```
 Note: Never put anything (e.g. comment) before the `%%R`, otherwise `UsageError: Line magic function `%%R` not found.` 
 
