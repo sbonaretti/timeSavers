@@ -123,11 +123,11 @@ Note: `geom_text` is much slower
   labs(size="new_title")
   ```
 - Change legend order
+  (e.g. point_geom)
   ```
-  e.g. point_geom
-       scale_color_manual(labels = c("F", "A", "I", "R"), # it was "A", "F", "I", "R"
-                          breaks = c("F", "A", "I", "R")  # change colors according to new labels
-                          ) + 
+  scale_color_manual(labels = c("F", "A", "I", "R"), # it was "A", "F", "I", "R"
+                     breaks = c("F", "A", "I", "R")  # change colors according to new labels
+                     ) + 
   ```
 - Remove a legend  
   Add the item that creates the legend in `geom_xxx`, but not in the `aes`
