@@ -131,3 +131,8 @@ Note: `geom_text` is much slower
   ```
 - Remove a legend  
   Add the item that creates the legend in `geom_xxx`, but not in the `aes`
+
+- Put two legends next to each other:  
+  ```
+  theme(legend.box = "horizontal")
+  ```
