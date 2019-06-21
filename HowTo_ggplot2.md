@@ -101,8 +101,8 @@ theme_bw() +
   
 - Reverse axis
   ```
-  e.g.    scale_x_continuous(limits=c(0.5,4.5), breaks=seq(1,4,1),  labels=colnames(df)) + 
-  becomes scale_x_reverse   (limits=c(4.5,0.5), breaks=seq(4,1,-1), labels=rev(colnames(df))) + 
+  e.g.     scale_x_continuous(limits=c(0.5,4.5), breaks=seq(1,4,1),  labels=colnames(df)) + 
+  becomes: scale_x_reverse   (limits=c(4.5,0.5), breaks=seq(4,1,-1), labels=rev(colnames(df))) + 
   ```
 
 
