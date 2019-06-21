@@ -91,7 +91,20 @@ theme_bw() +
   ```
   theme (axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.3, size = 8), 
          axis.text.y = [same as axis.text.x]) +  
+  ```  
+  
+- Flip axis  (= invert `x` and `y`)
   ```
+  coord_flip()
+  ```  
+  ! `x` and `y` axis properties get inverted too (e.g. `scale_x_continuous` -> `scale_y_continuous`)
+  
+- Reverse axis
+  ```
+  e.g.    scale_x_continuous(limits=c(0.5,4.5), breaks=seq(1,4,1),  labels=colnames(df)) + 
+  becomes scale_x_reverse   (limits=c(4.5,0.5), breaks=seq(4,1,-1), labels=rev(colnames(df))) + 
+  ```
+
 
 ## Title
 ```
