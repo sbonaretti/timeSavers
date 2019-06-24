@@ -52,20 +52,17 @@ Note: Never put anything (e.g. comment) before the `%%R`, otherwise `UsageError:
   - Size  
         - Same for all points   
           ```  
-          geom_point(size=2)  
+          geom_point(size=2) + 
           ```    
         - Depending on variable   
           ```
-          geom_point(aes(size = variable)) # aes(size = variable) can be also added to ggplot 
+          geom_point(aes(size = variable)) + # aes(size = variable) can be also added to ggplot 
           ```  
         - Proportional to area    
           ```
           scale_size_area() + 
           ```
   
- 
-
-
 
 ## Background  
 ```
@@ -81,7 +78,7 @@ theme_bw() +
   ```   
 - Label font size  
   ```
-  theme (text = element_text(size = 8))+
+  theme (text = element_text(size = 8)) +
   ```
 
 - Lengths and ticks
@@ -99,7 +96,7 @@ theme_bw() +
   
 - Flip axis  (= invert `x` and `y`)
   ```
-  coord_flip()
+  coord_flip() +
   ```  
   ! `x` and `y` axis properties get inverted too (e.g. `scale_x_continuous` -> `scale_y_continuous`)
   
