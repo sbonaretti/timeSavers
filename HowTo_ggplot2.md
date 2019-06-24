@@ -57,8 +57,8 @@ Note: Never put anything (e.g. comment) before the `%%R`, otherwise `UsageError:
         - Depending on variable   
           ```
           geom_point(aes(size = variable)) # aes(size = variable) can be also added to ggplot 
-          ```
-        - Proportional to value independently from depicted range  
+          ```  
+        - Proportional to area    
           ```
           scale_size_area() + 
           ```
