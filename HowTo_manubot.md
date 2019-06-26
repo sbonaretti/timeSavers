@@ -23,15 +23,14 @@ Instruction: https://github.com/manubot/rootstock and (better) in the README.
 - Build the manuscript: 
   - in `.html` and `.pdf`:  
     ```
-    sh build.sh
-    python build/webpage.py
+    sh build.sh              # Created files are in `output` and figures are not rendered in `.html`
+    python build/webpage.py  # Created files are in `parentFolder/webpage/v/local` and figures are rendered
     ```
   - in `.docx`:
     ```
     BUILD_DOCX=true sh build/build.sh
     python build/webpage.py
     ```
-Created files are in `parentFolder/webpage/v/local`
 
   
 ## Markdown   
