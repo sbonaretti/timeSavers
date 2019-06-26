@@ -14,11 +14,17 @@ Instruction: https://github.com/manubot/rootstock and (better) in the README.
   ```
   cd ..
   ```
-- Build the manuscript:  
-  ```
-  sh build.sh
-  ```
-  and see `.html` and `.pdf` in `parentFolder/output`
+- Build the manuscript: 
+  - in `.html` and `.pdf`:  
+    ```
+    sh build.sh
+    ```
+  - in `.docx`:
+    ```
+    BUILD_DOCX=true sh build/build.sh
+    ```
+Created files are in `parentFolder/output`
+  
   
 ## Citations  
 
