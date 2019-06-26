@@ -31,11 +31,15 @@ Instruction: https://github.com/manubot/rootstock and (better) in the README.
     ```
 Created files are in `parentFolder/output`
   
-  
+## Markdown   
+See here: https://github.com/manubot/rootstock/blob/master/USAGE.md
+
 ## Citations  
 
 ```
 [@doi:actual_doi_here]
 ```  
 - Change citation style:  
+
+
 
