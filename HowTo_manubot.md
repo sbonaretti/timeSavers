@@ -39,16 +39,27 @@ See here: https://github.com/manubot/rootstock/blob/master/USAGE.md
   ```
   [@doi:actual_doi_here]
   ```  
-- Tables: 
-  - Label (under the table):  
-    ```
-    Table: Use cases.
-    {#tbl:use_cases}
-    ```
-   - In text:  
-     ```
-     @tbl:use_cases
-     ```
+## Tables: 
+- markdown or html 
+- Label (under the table):  
+  ```
+  Table: Use cases.
+  {#tbl:use_cases}
+  ```
+- Reference:  
+  ```
+  @tbl:use_cases
+  ```
+
+## Figures:  
+```
+![Figure_caption](images/figure_name.png){#fig:figure_label width="100%"} # only png and svg accepted  
+```
+- Reference:  
+  ```
+  Figure @fig:figure_label
+  ```
+ 
      
 
 
