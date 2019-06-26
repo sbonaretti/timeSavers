@@ -38,6 +38,7 @@ See here: https://github.com/manubot/rootstock/blob/master/USAGE.md
 - References:
   ```
   [@doi:actual_doi_here]
+  [@url:url_here] # for websites  
   ```  
 ## Tables: 
 - markdown
