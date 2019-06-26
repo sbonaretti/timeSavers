@@ -1,5 +1,7 @@
 # How To: manubot
 
+Instruction: https://github.com/manubot/rootstock
+
 - Download the template-repository here: https://github.com/manubot/rootstock  
 - 
 - In terminal:  
