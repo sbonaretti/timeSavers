@@ -40,7 +40,13 @@ See here: https://github.com/manubot/rootstock/blob/master/USAGE.md
   [@doi:actual_doi_here]
   ```  
 ## Tables: 
-- markdown or html 
+- markdown
+  ```
+  | col1 | col2| col3 | col4 | col5 |
+  |------|-----|------|------|------|
+  ```
+  (To get the html, open file in editor)
+  
 - Label (under the table):  
   ```
   Table: Use cases.
