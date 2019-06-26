@@ -24,12 +24,15 @@ Instruction: https://github.com/manubot/rootstock and (better) in the README.
   - in `.html` and `.pdf`:  
     ```
     sh build.sh
+    python build/webpage.py
     ```
   - in `.docx`:
     ```
     BUILD_DOCX=true sh build/build.sh
+    python build/webpage.py
     ```
-Created files are in `parentFolder/output`
+Created files are in `parentFolder/webpage/v/local`
+
   
 ## Markdown   
 See here: https://github.com/manubot/rootstock/blob/master/USAGE.md
