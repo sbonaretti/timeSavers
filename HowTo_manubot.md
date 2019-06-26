@@ -19,3 +19,11 @@ Instruction: https://github.com/manubot/rootstock and (better) in the README.
   sh build.sh
   ```
   and see `.html` and `.pdf` in `parentFolder/output`
+  
+## Citations  
+
+```
+[@doi:actual_doi_here]
+```  
+- Change citation style:  
+
