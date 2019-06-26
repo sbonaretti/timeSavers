@@ -3,6 +3,12 @@
 Instruction: https://github.com/manubot/rootstock and (better) in the README.
 
 - Download the template-repository here: https://github.com/manubot/rootstock  
+- Pip install:
+  ```
+  COMMIT=33e512d21218263423de5f0d127aac4f8635468f # look for commit number here: https://github.com/manubot/manubot under "Installation"
+  pip install git+https://github.com/manubot/manubot@$COMMIT
+  ```
+
 - Install and activate the environment:  
   ```
   cd [path]/manubot/build`  
