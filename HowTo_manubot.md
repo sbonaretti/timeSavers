@@ -35,11 +35,21 @@ Created files are in `parentFolder/output`
 See here: https://github.com/manubot/rootstock/blob/master/USAGE.md
 
 ## Citations  
-
-```
-[@doi:actual_doi_here]
-```  
-- Change citation style:  
+- References:
+  ```
+  [@doi:actual_doi_here]
+  ```  
+- Tables: 
+  - Label (under the table):  
+    ```
+    Table: Use cases.
+    {#tbl:use_cases}
+    ```
+   - In text:  
+     ```
+     @tbl:use_cases
+     ```
+     
 
 
 
