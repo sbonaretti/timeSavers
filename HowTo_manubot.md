@@ -1,6 +1,6 @@
 # How To: manubot
 
-Instruction: https://github.com/manubot/rootstock and (better) in the README.md in the main folder.
+Instruction: https://github.com/manubot/rootstock
 
 - Download the template-repository here: https://github.com/manubot/rootstock  
 - Pip install:
