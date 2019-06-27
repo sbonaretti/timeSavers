@@ -43,6 +43,19 @@ See here: https://github.com/manubot/rootstock/blob/master/USAGE.md
   [@doi:actual_doi_here]
   [@url:url_here] # for websites  
   ```  
+- For recurrent citations:  
+  - In `content/citation-tags.tsv` add a label (tag) and a citation (doi):  
+    ```
+    tag	citation
+    deep-review	doi:10.1098/rsif.2017.0387
+    ref_weber	doi:10.1109/eScience.2018.00027
+    ```  
+    Make sure that there is a tab between tag and citation. If not, copy/paste the space from the template `deep-review	doi:10.1098/rsif.2017.0387`
+  - In the text, cite as:  
+    ```
+    @tag:ref_weber
+    ```
+  
 ## Tables: 
 - markdown
   ```
