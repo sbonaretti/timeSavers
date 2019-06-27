@@ -11,20 +11,16 @@ Instruction: https://github.com/manubot/rootstock and (better) in the README.
 
 - Install and activate the environment:  
   ```
-  cd [path]/manubot/build`  
+  cd [path]/manubot/build`        # all commands are going to be executed in the directory "build"
   conda env remove --name manubot
   conda env create --file environment.yml
-  conda activate manubot # to deactivate: conda deactivate
-  ```
-- Go back to the parent directory:  
-  ```
-  cd ..
+  conda activate manubot          # to deactivate: conda deactivate
   ```
 - Build the manuscript: 
   - in `.html` and `.pdf`:  
     ```
-    sh build.sh              # Created files are in `output` and figures are not rendered in `.html`
-    python build/webpage.py  # Created files are in `parentFolder/webpage/v/local` and figures are rendered
+    sh build.sh                   # Created files are in `output` and figures are not rendered in `.html`
+    python webpage.py             # Created files are in `parentFolder/webpage/v/local` and figures are rendered
     ```
   - in `.docx`:
     ```
