@@ -299,10 +299,11 @@ backend: TkAgg
   pip uninstall pykneer
   ```
 - Modify your code  
-- Run  
+- Run:   
   ```
   python setup.py develop
   ```
+  Note: package is installed in the directory where `setup.py` is, not in the parent directory
 
 
 ### Create the new package
