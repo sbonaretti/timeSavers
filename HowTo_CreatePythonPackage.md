@@ -1,6 +1,8 @@
 # How to: Create a Python Package
 
-## Create a virtual environment
+## FIRST VERSION 0.0.1
+
+### Create a virtual environment
 ```
 # Go to folder
 cd <folder>
@@ -13,7 +15,7 @@ source <env_name>/bin/activate
 deactivate
 ```
 
-## Folder and file structure
+### Folder and file structure
 Instructions from https://packaging.python.org/  
 Folder structure in <env_name>:
 ```
@@ -44,7 +46,7 @@ Folder structure in <env_name>:
     
 ```
 
-### setup.py
+#### setup.py
 It contains all the info to create the package  
 Example:
 ```
@@ -94,9 +96,9 @@ setuptools.setup(
 Important: For following versions, update the line `version="0.0.1"` to the new version
 
 
-### Additions to code 
+#### Additions to code 
 
-#### python packages
+##### python packages
 In ``requirements.txt`` list packages and version  
 Example: 
 ```
@@ -116,7 +118,7 @@ install_requires=[
     ],
 ```
 
-#### modules
+##### modules
 Add modules to ``my_package/__init__.py``.
 Example:
 ```
@@ -131,7 +133,7 @@ from . import pykneer_io as io
 
 ```
 
-#### text files (<folder_with_parameters>)
+##### text files (<folder_with_parameters>)
 
 In``MANIFEST.in``:
 ```
@@ -161,7 +163,7 @@ DATA_PATH = pkg_resources.resource_filename('example_pkg','parameterFiles/')
 # assign DATA_PATH where needed
 ```
 
-#### Binaries (<folder_with_executables>)
+##### Binaries (<folder_with_executables>)
 In``MANIFEST.in``:
 ```
 include example_pkg/Darwin/*    # Contains binaries for OS
@@ -178,7 +180,7 @@ packages=setuptools.find_packages(),
 In the code, same as right above
 
 
-#### Tests 
+##### Tests 
 
 In ``setup.cfg``:
 ```
@@ -201,32 +203,32 @@ Run all test (after installation):
 python setup.py test
 ```
 
-### LICENSE
+#### LICENSE
 - Choose a license: https://choosealicense.com
 - Copy the text in the file LICENSE
 - Add the license to setup.py (Sintax: https://autopilot-docs.readthedocs.io/en/latest/license_list.html)
 
 
-### README.md
+#### README.md
 Brief description of package
 
-## Commands
+### Commands
 
-### Create a package
+#### Create a package
 ```
 python3 setup.py sdist bdist_wheel
 ```
 It creates ``dist/*.whl``, which is the executable
 
-### Install a package
+#### Install a package
 
-#### Install package from local executable (easy and recommended)
+##### Install package from local executable (easy and recommended)
 Example:
 ```
 pip install dist/my_package-0.0.1-py3-none-any.whl
 ```
 
-#### From test.pypi.org (more complicated, not necessary)
+##### From test.pypi.org (more complicated, not necessary)
 - Create an account
 - Make sure to increase the version every time in``setup.py``:
   ```
@@ -242,7 +244,7 @@ pip install dist/my_package-0.0.1-py3-none-any.whl
   pip install -i https://test.pypi.org/simple/ my_package --upgrade     # the following times
   ```
 
-## Conventions  
+### Conventions  
 - General conventions: https://www.python.org/dev/peps/pep-0008/  
 - Naming conventions:  https://www.python.org/dev/peps/pep-0008/#naming-conventions  
   - _Modules_ should have short, all-lowercase names. Underscores can be used in the module name if it improves readability.  
@@ -251,7 +253,7 @@ pip install dist/my_package-0.0.1-py3-none-any.whl
   - _Function_ names should be lowercase, with words separated by underscores as necessary to improve readability. _Variable_ names follow the same convention as function names. mixedCase is allowed only in contexts where that's already the prevailing style (e.g. threading.py), to retain backwards compatibility.  
 - _Docstrings_: They are the comments in modules. Check out here: https://www.python.org/dev/peps/pep-0257/   
 
-## Test with Jupyter notebook
+### Test with Jupyter notebook
 Install notebook in virtual environment:
 ```
 pip install ipykernel
@@ -260,7 +262,7 @@ python -m ipykernel install --user --name=<env_name>
 Click the button in the top right of the notebook and select the kernel in <env_name>  
 Note: autoreload not working  - look for how to install it
 
-## Upload to pypi.org
+### Upload to pypi.org
 - Register here: https://pypi.org/account/register/
 - `cd` to the folder 
 - Upload the package
@@ -268,13 +270,13 @@ Note: autoreload not working  - look for how to install it
   python3 -m twine upload dist/*
 
 
-## Usefull websites
+### Usefull websites
 
 https://ewencp.org/blog/a-brief-introduction-to-packaging-python/  
 https://inventwithpython.com/blog/2018/10/22/a-curriculum-for-python-packaging/ (summary of videos)  
 https://packaging.python.org/ (official page)  
 
-## Tricks
+### Tricks
 Matplotlib has issues with virtual environments on mac. To make it work, create ``matplotlibrc``:
 ```
 cd ~/.matplotlib
@@ -284,3 +286,5 @@ and add:
 ```
 backend: TkAgg
 ```
+
+## FOLLOWING VERSIONS AFTER 0.0.1
