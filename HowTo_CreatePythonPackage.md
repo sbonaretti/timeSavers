@@ -91,6 +91,7 @@ setuptools.setup(
 )
 ```
 
+Important: For following versions, update the line `version="0.0.1"` to the new version
 
 
 ### Additions to code 
