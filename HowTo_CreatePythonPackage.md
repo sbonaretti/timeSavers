@@ -294,7 +294,10 @@ backend: TkAgg
   source <env_name>/bin/activate
   ```
 ### Testing new code  
-
+- Uninstall current version  
+  ```
+  pip uninstall pykneer
+  ```
 
 
 ### Create the new package
