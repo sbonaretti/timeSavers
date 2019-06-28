@@ -293,4 +293,9 @@ backend: TkAgg
   ```
   source <env_name>/bin/activate
   ```
+### Testing new code  
+
+
+
+### Create the new package
 - Update version in `setup.py`
