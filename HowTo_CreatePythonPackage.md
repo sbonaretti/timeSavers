@@ -298,12 +298,13 @@ backend: TkAgg
   ```
   pip uninstall pykneer
   ```
-- Modify your code  
-- Run:   
-  ```
-  python setup.py develop
-  ```
-  Note: package is installed in the directory where `setup.py` is, not in the parent directory
+- Every time you modify your code  
+  - Run:   
+    ```
+    python setup.py develop
+    ```
+    Note: package is installed in the directory where `setup.py` is, not in the parent directory
+  - Re-import pykneer (top of notebook)
 
 
 ### Create the new package
