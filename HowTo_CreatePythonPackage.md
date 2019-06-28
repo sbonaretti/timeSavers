@@ -298,6 +298,11 @@ backend: TkAgg
   ```
   pip uninstall pykneer
   ```
+- Modify your code  
+- Run  
+  ```
+  python setup.py develop
+  ```
 
 
 ### Create the new package
