@@ -288,3 +288,9 @@ backend: TkAgg
 ```
 
 ## FOLLOWING VERSIONS AFTER 0.0.1
+
+- Activate the virtual environment  
+  ```
+  source <env_name>/bin/activate
+  ```
+- Update version in `setup.py`
