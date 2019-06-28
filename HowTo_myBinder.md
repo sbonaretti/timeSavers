@@ -52,7 +52,7 @@ Go to [mybinder.com](https://mybinder.org/) and fill out like this:
   ```
   publication/data/cart_segm_literature.ipynb (File on the right)
   ```
-- Press lunch. It creates a docker file, containing a linux machine, where it install python and R with the libraries required in the environment file -> It takes time (~15-20 minutes). The following times it takes less because the docker image is already created
+- Press launch. It creates a docker file, containing a linux machine, where it install python and R with the libraries required in the environment file -> It takes time (~15-20 minutes). The following times it takes less because the docker image is already created
 
 ## ADDING A NEW NOTEBOOK
 - Go to the mybinder page where you created the previous mybinder, and just substitute the name of the notebook file
