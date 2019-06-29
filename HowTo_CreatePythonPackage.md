@@ -347,3 +347,11 @@ This is the way I use for *pyKNEEr*
   - Click the button in the top right of the notebook and select the kernel in test_release  
   - Run all the notebooks of the demo
 
+### Release   
+- Upload to pypi  
+
+- Commit the new version to GitHub and create the release  
+
+- Merge the release with Zenodo  
+
+- Install new version locally: `pip install pykneer --upgrade`
