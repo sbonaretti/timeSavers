@@ -319,3 +319,9 @@ backend: TkAgg
   pip install dist/my_package-0.0.1-py3-none-any.whl
   ```
 
+### Test release  
+- Create a new virtual environment and activate it
+  ```
+  virtualenv test_release
+  source test_release/bin/activate
+  ```
