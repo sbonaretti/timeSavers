@@ -349,6 +349,9 @@ This is the way I use for *pyKNEEr*
 
 ### Release   
 - Upload to pypi  
+  ```
+  python3 -m twine upload --repository-url https://pypi.org/legacy/ dist/*
+  ```
 
 - Commit the new version to GitHub and create the release  
 
