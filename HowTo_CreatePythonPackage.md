@@ -268,7 +268,7 @@ Note: autoreload not working  - look for how to install it
 - Upload the package
   ```
   python3 -m twine upload dist/*
-
+  ```
 
 ### Usefull websites
 
@@ -338,7 +338,7 @@ This is the way I use for *pyKNEEr*
   ```
   pip install pykneer-0.0.3-py3-none-any.whl # use autofill to install the new version
   ```
-- Install notebook in virtual environment:
+- Install notebook in virtual environment (it might already be installed):
   ```
   pip install ipykernel
   python -m ipykernel install --user --name=test_release
@@ -350,7 +350,7 @@ This is the way I use for *pyKNEEr*
 ### Release   
 - Upload to pypi  
   ```
-  python3 -m twine upload --repository-url https://pypi.org/legacy/ dist/*
+  python3 -m twine upload dist/*
   ```
 
 - Commit the new version to GitHub and create the release  
