@@ -338,5 +338,5 @@ This is the way I use for *pyKNEEr*
   ```
   pip install pykneer-0.0.3-py3-none-any.whl # use autofill to install the new version
   ```
-- Copy here the `demo/input` folder  and run all the notebooks of the demo
+- In `test_release` copy the `demo/input` folder  and run all the notebooks of the demo
 
