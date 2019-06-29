@@ -338,5 +338,12 @@ This is the way I use for *pyKNEEr*
   ```
   pip install pykneer-0.0.3-py3-none-any.whl # use autofill to install the new version
   ```
-- In `test_release` copy the `demo/input` folder  and run all the notebooks of the demo
+- Install notebook in virtual environment:
+  ```
+  pip install ipykernel
+  python -m ipykernel install --user --name=test_release
+  ```
+- In `test_release` copy the `demo/input` folder, open the notebooks and  
+  - Click the button in the top right of the notebook and select the kernel in test_release  
+  - Run all the notebooks of the demo
 
