@@ -330,6 +330,7 @@ This is the way I use for *pyKNEEr*
 - Copy paste the new package from the directory `pip/pykneer/dist` to the directory `test_release`  
 - Install `itk 4.3` if still needed:  
   ```
+  cd test_release
   pip install itk-core==4.13.1.post1 itk-numerics==4.13.1.post1 itk-filtering==4.13.1.post1 itk-io==4.13.1.post1 itk-segmentation==4.13.1.post1 itk-registration==4.13.1.post1 --force-reinstall --no-cache-dir
   pip install itk==4.13.1.post1
   ```
