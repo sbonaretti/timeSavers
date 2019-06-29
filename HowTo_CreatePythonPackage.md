@@ -287,11 +287,16 @@ and add:
 backend: TkAgg
 ```
 
+--- 
+
+
 ## FOLLOWING VERSIONS AFTER 0.0.1
+
+This is the way I use for *pyKNEEr*
 
 - Activate the virtual environment  
   ```
-  source <env_name>/bin/activate
+  source pip/bin/activate
   ```
 ### Testing new code  
 - Uninstall current version  
@@ -314,14 +319,23 @@ backend: TkAgg
   python3 setup.py sdist bdist_wheel
   ```
   It creates ``dist/*.whl``, which is the executable
-- Install package from local executable
-  ```
-  pip install dist/my_package-0.0.1-py3-none-any.whl
-  ```
+  
 
-### Test release  
+### Test new package  
 - Create a new virtual environment and activate it
   ```
   virtualenv test_release
   source test_release/bin/activate
+  ```  
+- Copy paste the new package from the directory `pip/pykneer/dist` to the directory `test_release`  
+- Install `itk 4.3` if still needed:  
   ```
+  pip install itk-core==4.13.1.post1 itk-numerics==4.13.1.post1 itk-filtering==4.13.1.post1 itk-io==4.13.1.post1 itk-segmentation==4.13.1.post1 itk-registration==4.13.1.post1 --force-reinstall --no-cache-dir
+  pip install itk==4.13.1.post1
+  ```
+- Install package from local executable
+  ```
+  pip install dist/my_package-0.0.3-py3-none-any.whl # use the current version
+  ```
+- Copy here the `demo/input` folder  and run all the notebooks of the demo
+
