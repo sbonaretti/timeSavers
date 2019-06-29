@@ -336,7 +336,7 @@ This is the way I use for *pyKNEEr*
   ```
 - Install package from local executable
   ```
-  pip install dist/my_package-0.0.3-py3-none-any.whl # use the current version
+  pip install pykneer-0.0.3-py3-none-any.whl # use autofill to install the new version
   ```
 - Copy here the `demo/input` folder  and run all the notebooks of the demo
 
