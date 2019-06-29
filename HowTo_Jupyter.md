@@ -1,5 +1,11 @@
 # How to: Jupyter
 
+## Auto reload  
+```
+%load_ext autoreload 
+%autoreload 2
+```
+
 ## Installing widgets
 ```
 pip install ipywidgets
