@@ -308,4 +308,14 @@ backend: TkAgg
 
 
 ### Create the new package
-- Update version in `setup.py`
+- Update version number in `setup.py`
+- Create the package
+  ```
+  python3 setup.py sdist bdist_wheel
+  ```
+  It creates ``dist/*.whl``, which is the executable
+- Install package from local executable
+  ```
+  pip install dist/my_package-0.0.1-py3-none-any.whl
+  ```
+
