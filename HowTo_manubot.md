@@ -22,6 +22,7 @@ Instruction: https://github.com/manubot/rootstock
   ```
   
 - Build the manuscript: 
+  - make sure the virtual environment is acrive: `conda activate manubot `
   - in `.html` and `.pdf`:  
     ```
     sh build/build.sh             # Created files are in `output` and figures are not rendered in `.html`
