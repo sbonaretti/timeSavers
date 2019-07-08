@@ -29,6 +29,11 @@
   ```
   from itertools import chain
   long_list = list(chain.from_iterable(list_of_lists))
+  ```  
+- Get unique elements (using sets)  
+  ```
+  my_list_set = set(my_list)  
+  unique_elements = list(my_list_set) # note that "list"  here is a function   
   ```
   
   
