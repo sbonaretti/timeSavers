@@ -26,7 +26,9 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 - Manually update version number in `setup.py`  
 
 ### Modifying code  
-- Open spyder in virtual environment: https://stackoverflow.com/questions/30170468/how-to-run-spyder-in-virtual-environment
+- Open spyder in virtual environment: `spyder` 
+  (If not installed yet: `conda install spyder`)
+  Thread: https://stackoverflow.com/questions/30170468/how-to-run-spyder-in-virtual-environment
  
 
 ### Testing new code    
