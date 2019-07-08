@@ -3,11 +3,6 @@
 This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 [Upgrade package](#upgrade-package)  
-&nbsp; [Testing new code](#testing-new-code)  
-&nbsp; [Create the new package](#create-the-new-package)     
-&nbsp; [Test the new package](#test-the-new-package)     
-&nbsp; [Release](#release)     
-
 
 [Create package](#create-package)   
 
@@ -26,8 +21,13 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 - 
 
 
+ 
+**For version 0.0.3**  
+&nbsp; [Testing new code](#testing-new-code)  
+&nbsp; [Create the new package](#create-the-new-package)     
+&nbsp; [Test the new package](#test-the-new-package)     
+&nbsp; [Release](#release)     
 
-**For version 0.0.3**
 
 - Activate the virtual environment  
   ```
