@@ -69,6 +69,13 @@
   ```
   main_string = main_string.replace('old_sub_string', 'new_sub_string')
   ```
+  
+### Tuples  
+- Find element in tuples and get index:  
+  ```
+  if element in tuple:
+        index = tuple.index(element)
+  ```
 
 ### Packages  
 
