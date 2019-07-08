@@ -1,9 +1,12 @@
 # How to: Create a Python Package
 
-This is the way I did/am doing for *pyKNEEr*
+This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 [Upgrade package](#upgrade-package)
-
+&nbsp; [Testing new code](#testing-new-code)
+&nbsp; [Create the new package](#create-the-new-package)   
+&nbsp; [Test the new package](#test-the-new-package)   
+&nbsp; [Release](#release)   
 
 
 [Create package](#create-package)   
@@ -30,7 +33,91 @@ This is the way I did/am doing for *pyKNEEr*
 &nbsp; [Usefull websites](#usefull-websites)  
 &nbsp; [Tricks](#tricks)  
 
+--- 
 
+
+## UPGRADE PACKAGE
+
+**For version 0.0.4: Working with GitHub branches and Travis CI**  
+- Create the new branck v004 in GitHub desktop  
+- Activate the virtual environment  
+  ```
+  source pyKNEEr/bin/activate
+  ```  
+- 
+
+
+
+**For version 0.0.3**
+
+- Activate the virtual environment  
+  ```
+  source pip/bin/activate
+  ```
+### Testing new code  
+- Uninstall current version  
+  ```
+  pip uninstall pykneer
+  ```
+- Every time you modify your code  
+  - Run:   
+    ```
+    python setup.py develop
+    ```
+    Note: package is installed in the directory where `setup.py` is, not in the parent directory
+  - Re-import pykneer (top of notebook)
+
+
+### Create the new package
+- Update version number in `setup.py`
+- Create the package
+  ```
+  python3 setup.py sdist bdist_wheel
+  ```
+  It creates ``dist/*.whl``, which is the executable
+  
+
+### Test new package  
+- Create a new virtual environment and activate it
+  ```
+  virtualenv test_release
+  source test_release/bin/activate
+  ```  
+- Copy paste the new package from the directory `pip/pykneer/dist` to the directory `test_release`  
+- Install `itk 4.3` if still needed:  
+  ```
+  cd test_release
+  pip install itk-core==4.13.1.post1 itk-numerics==4.13.1.post1 itk-filtering==4.13.1.post1 itk-io==4.13.1.post1 itk-segmentation==4.13.1.post1 itk-registration==4.13.1.post1 --force-reinstall --no-cache-dir
+  pip install itk==4.13.1.post1
+  ```
+- Install package from local executable
+  ```
+  pip install pykneer-0.0.3-py3-none-any.whl # use autofill to install the new version
+  ```
+- Install notebook in virtual environment (it might already be installed):
+  ```
+  pip install ipykernel
+  python -m ipykernel install --user --name=test_release
+  ```
+- In `test_release` copy the `demo/input` folder, open the notebooks and  
+  - Click the button in the top right of the notebook and select the kernel in test_release  
+  - Run all the notebooks of the demo
+
+### Release   
+- Upload to pypi  
+  ```
+  python3 -m twine upload dist/*
+  ```
+
+- Commit the new version to GitHub and create the release  
+
+- Merge the release with Zenodo  
+
+- Install new version locally: `pip install pykneer --upgrade`
+
+
+
+---
 
 ## CREATE PACKAGE
 
@@ -319,73 +406,3 @@ and add:
 backend: TkAgg
 ```
 
---- 
-
-
-## UPGRADE PACKAGE
-
-
-- Activate the virtual environment  
-  ```
-  source pip/bin/activate
-  ```
-### Testing new code  
-- Uninstall current version  
-  ```
-  pip uninstall pykneer
-  ```
-- Every time you modify your code  
-  - Run:   
-    ```
-    python setup.py develop
-    ```
-    Note: package is installed in the directory where `setup.py` is, not in the parent directory
-  - Re-import pykneer (top of notebook)
-
-
-### Create the new package
-- Update version number in `setup.py`
-- Create the package
-  ```
-  python3 setup.py sdist bdist_wheel
-  ```
-  It creates ``dist/*.whl``, which is the executable
-  
-
-### Test new package  
-- Create a new virtual environment and activate it
-  ```
-  virtualenv test_release
-  source test_release/bin/activate
-  ```  
-- Copy paste the new package from the directory `pip/pykneer/dist` to the directory `test_release`  
-- Install `itk 4.3` if still needed:  
-  ```
-  cd test_release
-  pip install itk-core==4.13.1.post1 itk-numerics==4.13.1.post1 itk-filtering==4.13.1.post1 itk-io==4.13.1.post1 itk-segmentation==4.13.1.post1 itk-registration==4.13.1.post1 --force-reinstall --no-cache-dir
-  pip install itk==4.13.1.post1
-  ```
-- Install package from local executable
-  ```
-  pip install pykneer-0.0.3-py3-none-any.whl # use autofill to install the new version
-  ```
-- Install notebook in virtual environment (it might already be installed):
-  ```
-  pip install ipykernel
-  python -m ipykernel install --user --name=test_release
-  ```
-- In `test_release` copy the `demo/input` folder, open the notebooks and  
-  - Click the button in the top right of the notebook and select the kernel in test_release  
-  - Run all the notebooks of the demo
-
-### Release   
-- Upload to pypi  
-  ```
-  python3 -m twine upload dist/*
-  ```
-
-- Commit the new version to GitHub and create the release  
-
-- Merge the release with Zenodo  
-
-- Install new version locally: `pip install pykneer --upgrade`
