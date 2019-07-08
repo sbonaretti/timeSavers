@@ -2,36 +2,15 @@
 
 This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
-[Upgrade package](#upgrade-package)
-&nbsp; [Testing new code](#testing-new-code)
-&nbsp; [Create the new package](#create-the-new-package)   
-&nbsp; [Test the new package](#test-the-new-package)   
-&nbsp; [Release](#release)   
+[Upgrade package](#upgrade-package)  
+&nbsp; [Testing new code](#testing-new-code)  
+&nbsp; [Create the new package](#create-the-new-package)     
+&nbsp; [Test the new package](#test-the-new-package)     
+&nbsp; [Release](#release)     
 
 
 [Create package](#create-package)   
-&nbsp; [Create a virtual environment](#create-a-virtual-environment)  
-&nbsp; [Folder and file structure](#folder-and-file-structure)  
-&nbsp; &nbsp; [setup.py](#setup.py)  
-&nbsp; &nbsp; [Additions to code](#additions-to-code)  
-&nbsp; &nbsp; &nbsp; [Python packages](#python-packages)   
-&nbsp; &nbsp; &nbsp; [Modules](#modules)   
-&nbsp; &nbsp; &nbsp; [Text files](#text-files)   
-&nbsp; &nbsp; &nbsp; [Binaries](#binaries)  
-&nbsp; &nbsp; &nbsp; [Binaries](#binaries)  
-&nbsp; &nbsp; &nbsp; [Tests](#tests)   
-&nbsp; &nbsp; [License](#license)  
-&nbsp; &nbsp; [README.md](#readme.md)  
-&nbsp; [Commands](#commands)   
-&nbsp; &nbsp; [Create a package](#create-a-package)  
-&nbsp; &nbsp; [Install a package](#install-a-package)  
-&nbsp; &nbsp;  &nbsp; [Install package from local executable](#install-package-from-local-executable)  
-&nbsp; &nbsp;  &nbsp; [Install package from test.pypi.org](#install-package-from-test.pypi.org)  
-&nbsp; [Conventions](#conventions)    
-&nbsp; [Test with Jupyter notebook](#test-with-Jupyter-notebook)   
-&nbsp; [Upload to pypi.org](#upload-to-pypi.org)  
-&nbsp; [Usefull websites](#usefull-websites)  
-&nbsp; [Tricks](#tricks)  
+
 
 --- 
 
@@ -120,6 +99,29 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 ---
 
 ## CREATE PACKAGE
+
+&nbsp; [Create a virtual environment](#create-a-virtual-environment)  
+&nbsp; [Folder and file structure](#folder-and-file-structure)  
+&nbsp; &nbsp; [setup.py](#setup.py)  
+&nbsp; &nbsp; [Additions to code](#additions-to-code)  
+&nbsp; &nbsp; &nbsp; [Python packages](#python-packages)   
+&nbsp; &nbsp; &nbsp; [Modules](#modules)   
+&nbsp; &nbsp; &nbsp; [Text files](#text-files)   
+&nbsp; &nbsp; &nbsp; [Binaries](#binaries)  
+&nbsp; &nbsp; &nbsp; [Binaries](#binaries)  
+&nbsp; &nbsp; &nbsp; [Tests](#tests)   
+&nbsp; &nbsp; [License](#license)  
+&nbsp; &nbsp; [README.md](#readme.md)  
+&nbsp; [Commands](#commands)   
+&nbsp; &nbsp; [Create a package](#create-a-package)  
+&nbsp; &nbsp; [Install a package](#install-a-package)  
+&nbsp; &nbsp;  &nbsp; [Install package from local executable](#install-package-from-local-executable)  
+&nbsp; &nbsp;  &nbsp; [Install package from test.pypi.org](#install-package-from-test.pypi.org)  
+&nbsp; [Conventions](#conventions)    
+&nbsp; [Test with Jupyter notebook](#test-with-Jupyter-notebook)   
+&nbsp; [Upload to pypi.org](#upload-to-pypi.org)  
+&nbsp; [Usefull websites](#usefull-websites)  
+&nbsp; [Tricks](#tricks)  
 
 ### Create a virtual environment
 ```
