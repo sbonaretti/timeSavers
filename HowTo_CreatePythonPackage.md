@@ -37,7 +37,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
     ```
     python setup.py develop
     ```
-    Note: package is installed in the directory where `setup.py` is, not in the parent directory
+    Note: package is installed in the directory as `setup.py`, not in the parent directory
   - Re-import pykneer (top of notebook)
 
 
