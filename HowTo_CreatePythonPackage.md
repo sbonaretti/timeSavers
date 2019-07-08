@@ -4,9 +4,9 @@
 &nbsp; [Create a virtual environment](#create-a-virtual-environment)  
 &nbsp; [Folder and file structure](#folder-and-file-structure)  
 &nbsp; &nbsp; [setup.py](#setup.py)  
-&nbsp; &nbsp; [Additions to code](#additions-to-code)
-&nbsp; &nbsp; &nbsp; [python packages](#python-packages)  
-&nbsp; &nbsp; &nbsp; [modules](#modules)  
+&nbsp; &nbsp; [Additions to code](#additions-to-code)  
+&nbsp; &nbsp; &nbsp; [python packages](#python-packages)   
+&nbsp; &nbsp; &nbsp; [modules](#modules)   
 
 [Upgrade package](#upgrade-package)
 
