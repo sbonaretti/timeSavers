@@ -12,11 +12,11 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 ## UPGRADE PACKAGE
 
-**For version 0.0.4: Working with GitHub branches and Travis CI**  
+**From version 0.0.4: Working with GitHub branches and Travis CI**  
 
 ### Set up
 - In GitHub desktop, current branch tab (top center) :  
-  - Create a new branck: --> New branch --> Name (e.g. v004)   
+  - Create a new branck: -> New branch -> Name (e.g. v004)   
   - Select the created new branch  
 
 - Activate the python virtual environment  
