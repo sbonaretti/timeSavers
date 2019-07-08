@@ -13,12 +13,30 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 ## UPGRADE PACKAGE
 
 **For version 0.0.4: Working with GitHub branches and Travis CI**  
-- Create the new branck v004 in GitHub desktop  
-- Activate the virtual environment  
+
+### Set up
+- In GitHub desktop, current branch tab (top center) :  
+  - Create a new branck: --> New branch --> Name (e.g. v004)   
+  - Select the created new branch  
+
+- Activate the python virtual environment  
   ```
   source pyKNEEr/bin/activate
   ```  
-- 
+  
+### Testing new code    
+- Uninstall current version  
+  ```
+  pip uninstall pykneer
+  ```
+- Every time you modify your code  
+  - Run:   
+    ```
+    python setup.py develop
+    ```
+    Note: package is installed in the directory where `setup.py` is, not in the parent directory
+  - Re-import pykneer (top of notebook)
+
 
 
  
