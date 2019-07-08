@@ -32,7 +32,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   ```
   spyder
   ```   
-  (If not installed yet: `conda install spyder`   
+  (If not installed yet: `pip install spyder`   
   Thread: https://stackoverflow.com/questions/30170468/how-to-run-spyder-in-virtual-environment) 
    
 - Uninstall current version  
