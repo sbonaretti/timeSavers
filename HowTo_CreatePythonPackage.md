@@ -1,14 +1,36 @@
 # How to: Create a Python Package
 
+This is the way I did/am doing for *pyKNEEr*
+
+[Upgrade package](#upgrade-package)
+
+
+
 [Create package](#create-package)   
 &nbsp; [Create a virtual environment](#create-a-virtual-environment)  
 &nbsp; [Folder and file structure](#folder-and-file-structure)  
 &nbsp; &nbsp; [setup.py](#setup.py)  
 &nbsp; &nbsp; [Additions to code](#additions-to-code)  
-&nbsp; &nbsp; &nbsp; [python packages](#python-packages)   
-&nbsp; &nbsp; &nbsp; [modules](#modules)   
+&nbsp; &nbsp; &nbsp; [Python packages](#python-packages)   
+&nbsp; &nbsp; &nbsp; [Modules](#modules)   
+&nbsp; &nbsp; &nbsp; [Text files](#text-files)   
+&nbsp; &nbsp; &nbsp; [Binaries](#binaries)  
+&nbsp; &nbsp; &nbsp; [Binaries](#binaries)  
+&nbsp; &nbsp; &nbsp; [Tests](#tests)  
+&nbsp; &nbsp; [License](#license)
+&nbsp; &nbsp; [README.md](#readme.md)
+&nbsp; [Commands](#commands)   
+&nbsp; &nbsp; [Create a package](#create-a-package)
+&nbsp; &nbsp; [Install a package](#install-a-package)
+&nbsp; &nbsp;  &nbsp; [Install package from local executable](#install-package-from-local-executable)
+&nbsp; &nbsp;  &nbsp; [Install package from test.pypi.org](#install-package-from-test.pypi.org)
+&nbsp; [Conventions](#conventions)   
+&nbsp; [Test with Jupyter notebook](#test-with-Jupyter-notebook)   
+&nbsp; [Upload to pypi.org](#upload-to-pypi.org)
+&nbsp; [Usefull websites](#usefull-websites)
+&nbsp; [Tricks](#tricks)
 
-[Upgrade package](#upgrade-package)
+
 
 ## CREATE PACKAGE
 
@@ -108,7 +130,7 @@ Important: For following versions, update the line `version="0.0.1"` to the new 
 
 #### Additions to code 
 
-##### python packages
+##### Python packages
 In ``requirements.txt`` list packages and version  
 Example: 
 ```
@@ -128,7 +150,7 @@ install_requires=[
     ],
 ```
 
-##### modules
+##### Modules
 Add modules to ``my_package/__init__.py``.
 Example:
 ```
@@ -143,7 +165,7 @@ from . import pykneer_io as io
 
 ```
 
-##### text files (<folder_with_parameters>)
+##### Text files (<folder_with_parameters>)
 
 In``MANIFEST.in``:
 ```
@@ -302,7 +324,6 @@ backend: TkAgg
 
 ## UPGRADE PACKAGE
 
-This is the way I use for *pyKNEEr*
 
 - Activate the virtual environment  
   ```
