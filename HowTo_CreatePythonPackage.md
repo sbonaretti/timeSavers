@@ -30,7 +30,8 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 - Uninstall current version  
   ```
   pip uninstall pykneer
-  ```
+  ```  
+  (For ITK: installed packages are in `lib/python3.7/site-packages`)
 - Every time you modify your code  
   - Run:   
     ```
@@ -40,7 +41,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   - Re-import pykneer (top of notebook)
 
 
-
+---
  
 **For version 0.0.3**  
 &nbsp; [Testing new code](#testing-new-code)  
