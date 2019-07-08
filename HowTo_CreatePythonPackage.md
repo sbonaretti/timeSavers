@@ -18,12 +18,14 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 - In GitHub desktop, current branch tab (top center) :  
   - Create a new branck: -> New branch -> Name (e.g. v004)   
   - Select the created new branch  
-
+  
 - Activate the python virtual environment:  
   ```
   source pyKNEEr/bin/activate
   ```  
+  
 - Manually update version number in `setup.py`  
+
 
 ### Modifying code  
 - Open spyder in virtual environment: 
@@ -32,14 +34,13 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   ```   
   (If not installed yet: `conda install spyder`   
   Thread: https://stackoverflow.com/questions/30170468/how-to-run-spyder-in-virtual-environment) 
- 
-
-### Testing new code    
+   
 - Uninstall current version  
   ```
   pip uninstall pykneer
   ```  
   (For ITK: installed packages are in `lib/python3.7/site-packages`)
+
 - Every time you modify your code  
   - Run:   
     ```
