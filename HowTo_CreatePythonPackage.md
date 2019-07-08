@@ -23,7 +23,9 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   ```
   source pyKNEEr/bin/activate
   ```  
-  
+- Manually update version number in `setup.py`  
+ 
+ 
 ### Testing new code    
 - Uninstall current version  
   ```
