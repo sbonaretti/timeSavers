@@ -1,7 +1,7 @@
 # How to: Create a Python Package
 
-[Create package](#create-package)
-Upgrade package
+[Create package](#create-package)  
+[Upgrade package](#upgrade-package)
 
 ## CREATE PACKAGE
 
@@ -293,7 +293,7 @@ backend: TkAgg
 --- 
 
 
-## FOLLOWING VERSIONS AFTER 0.0.1
+## UPGRADE PACKAGE
 
 This is the way I use for *pyKNEEr*
 
