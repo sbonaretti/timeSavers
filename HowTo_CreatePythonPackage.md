@@ -1,6 +1,9 @@
 # How to: Create a Python Package
 
-## FIRST VERSION 0.0.1
+[Create package](#create-package)
+Upgrade package
+
+## CREATE PACKAGE
 
 ### Create a virtual environment
 ```
