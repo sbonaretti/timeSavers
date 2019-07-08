@@ -19,7 +19,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   - Create a new branck: -> New branch -> Name (e.g. v004)   
   - Select the created new branch  
 
-- Activate the python virtual environment  
+- Activate the python virtual environment:  
   ```
   source pyKNEEr/bin/activate
   ```  
