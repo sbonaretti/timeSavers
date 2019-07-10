@@ -113,10 +113,6 @@ See here: https://github.com/manubot/rootstock/blob/master/USAGE.md
   
  
 
-table td {
-    word-wrap: break-word;         /* All browsers since IE 5.5+ */
-    overflow-wrap: break-word;     /* Renamed property in CSS3 draft spec */
-}
 
 
 ## Figures:  
