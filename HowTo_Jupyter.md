@@ -61,4 +61,8 @@ library(ggplot2)
 ggplot(df, aes(x=cups_of_coffee, y=productivity)) + geom_line()
 ```
  
-
+#### Markdown  
+- Change font color:  
+  ```
+  <font color='blue'>
+  ```
