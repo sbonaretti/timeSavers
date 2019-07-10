@@ -74,6 +74,41 @@ See here: https://github.com/manubot/rootstock/blob/master/USAGE.md
   ```
   @tbl:use_cases
   ```
+- Change font size (see [GitHub issue](https://github.com/manubot/rootstock/issues/239)):    
+  - Go to the `.css` file: `build/themes/default.html` (saved as `.html` but it is a `.css`)  
+  - For `html` rendering, go around line 216 and add:    
+    ```
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;  
+        font-size: 12px;   /* ADDED - set size in terms of pixels (character height) */ 
+        font-size: 10pt;   /* ADDED -set size in terms of points */
+        font-size: 0.75em; /* ADDED -set size relative to main document font-size */
+    }
+    ```
+  - For `.pdf` add the same lines around line 533   
+    ```
+    figure, table {
+            font-size: 0.85em;
+            font-size: 12px;   /* ADDED - set size in terms of pixels (character height) */ 
+            font-size: 10pt;   /* ADDED -set size in terms of points */
+            font-size: 0.75em; /* ADDED -set size relative to main document font-size */
+        }
+    ```
+
+- Customizing tables:  
+  - Write the table in HTML (if already written in markdown, open the HTML in editor, and copy/paste to markdown file)   
+  
+ 
+
+table td {
+    word-wrap: break-word;         /* All browsers since IE 5.5+ */
+    overflow-wrap: break-word;     /* Renamed property in CSS3 draft spec */
+}
+
 
 ## Figures:  
 ```
