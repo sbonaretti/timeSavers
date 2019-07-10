@@ -99,7 +99,7 @@ See here: https://github.com/manubot/rootstock/blob/master/USAGE.md
         }
     ```
 
-- Warp URLs in one cell   
+- Warp URLs in one cell:   
   - Same procedure as "Change font size" (above). Add lines:  
     ```
     table td {
@@ -108,8 +108,9 @@ See here: https://github.com/manubot/rootstock/blob/master/USAGE.md
     }
     ```
 
-- Customizing tables:  
+- Customizing tables (see [GitHub issue](https://github.com/manubot/rootstock/issues/240)):  
   - Write the table in HTML (if already written in markdown, open the HTML in editor, and copy/paste to markdown file)   
+  - Work in HTML. Note: Table number for reference gets lost  
   
  
 
