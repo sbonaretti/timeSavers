@@ -99,6 +99,15 @@ See here: https://github.com/manubot/rootstock/blob/master/USAGE.md
         }
     ```
 
+- Warp URLs in one cell   
+  - Same procedure as "Change font size" (above). Add lines:  
+    ```
+    table td {
+        word-wrap: break-word;         /* All browsers since IE 5.5+ */
+        overflow-wrap: break-word;     /* Renamed property in CSS3 draft spec */
+    }
+    ```
+
 - Customizing tables:  
   - Write the table in HTML (if already written in markdown, open the HTML in editor, and copy/paste to markdown file)   
   
