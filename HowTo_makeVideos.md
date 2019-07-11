@@ -1,8 +1,13 @@
 # How To: Make videos  
 
-## To record terminal  
+Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/videos   
+- Record screen using QuickTime: https://www.youtube.com/watch?v=mLyPrblmPp4
 
-### Asciinema: terminal in `.cast`
+
+## To record terminal  (not used)
+
+Asciinema saves in `.cast`, which needs to be transformed to `.gif` and then to `.mp4`. 
+
 - Asciinema: https://asciinema.org/  
 - Installation:    
   ```
@@ -23,4 +28,3 @@
 - Edit:  
   The `.cast` file is a `.json` file, so it can be opened with Atom and edited  
 
-### From `.cast` to `.gif`  
