@@ -6,4 +6,12 @@
   ```
   pip install asciinema
   ```  
+- Start recording:  
+  ```
+  asciinema rec
+  ```  
+- Stop recording:   
+  ```
+  exit
+  ```
   
