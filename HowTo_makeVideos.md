@@ -13,5 +13,10 @@
 - Stop recording:   
   ```
   exit
+  ```  
+- Save: 
   ```
+  crtl + c
+  ```  
+  It tells the folder where it is saved
   
