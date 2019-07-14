@@ -2,6 +2,8 @@
 
 Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/videos   
 - Record screen using QuickTime: https://www.youtube.com/watch?v=mLyPrblmPp4
+- Edit video using iMovie
+
 
 
 ## To record terminal  (not used)
