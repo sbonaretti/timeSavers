@@ -113,7 +113,17 @@ See here: https://github.com/manubot/rootstock/blob/master/USAGE.md
 
 - Customizing tables (see [GitHub issue](https://github.com/manubot/rootstock/issues/240)):  
   - Write the table in HTML (if already written in markdown, open the HTML in editor, and copy/paste to markdown file)   
-  - Work in HTML. Note: Table number for reference gets lost  
+  - Work in HTML  
+  - Cite HTML tables:   
+   - On top of table: 
+      ```
+      <a name="literature"></a>
+      ```
+    - In text:  
+      ```
+      Table <a href="#literature">1</a>  
+      ```
+      Note: Table number entered manually. But when clicking on the number, it jumps to the  table 
   
  
 
