@@ -37,19 +37,22 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   ```   
   (If not installed yet: `pip install spyder`   
   Thread: https://stackoverflow.com/questions/30170468/how-to-run-spyder-in-virtual-environment) 
-   
-- Uninstall current version  
-  ```
-  pip uninstall pykneer
-  ```  
-  (For ITK: installed packages are in `lib/python3.7/site-packages`)
+ 
+- Fix bugs / Implement and test new code in spyder - leave the Jupyter notebooks to the very end (they are the user interface!) 
+  
+- Test with Jupyter notebooks
+  - Uninstall current version  
+    ```
+    pip uninstall pykneer
+    ```  
+    (For ITK: installed packages are in `lib/python3.7/site-packages`)
 
-- Every time you modify your code  
-  - Run:   
+  - Install work-in-progress version   
     ```
     python setup.py develop
     ```
     Note: package is installed in the directory as `setup.py`, not in the parent directory
+
   - Re-import pykneer (top of notebook)
 
 
