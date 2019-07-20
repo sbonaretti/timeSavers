@@ -14,8 +14,8 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 **From version 0.0.4: Working with GitHub branches and Travis CI**  
 
-&nbsp; [Set up](#Set-up)   
-&nbsp; [Modifying code](#Modifying code)
+&nbsp; [Set up](#Set-up)    
+&nbsp; [Modifying code](#Modifying-code)
 
 ### Set up
 - In GitHub desktop, current branch tab (top center) :  
