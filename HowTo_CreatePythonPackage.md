@@ -30,17 +30,18 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 - Manually update version number in `setup.py`  
 
 
-### Modifying code  
-- Open spyder in virtual environment: 
-  ```
-  spyder
-  ```   
-  (If not installed yet: `pip install spyder`   
-  Thread: https://stackoverflow.com/questions/30170468/how-to-run-spyder-in-virtual-environment) 
- 
-- Fix bugs / Implement and test new code in spyder - leave the Jupyter notebooks to the very end (they are the user interface!) 
+### Modifying code 
+- Spyder 
+  - Open spyder in virtual environment: 
+    ```
+    spyder
+    ```   
+    (If not installed yet: `pip install spyder`   
+    Thread: https://stackoverflow.com/questions/30170468/how-to-run-spyder-in-virtual-environment) 
+
+  - Fix bugs / Implement and test new code in spyder - leave the Jupyter notebooks to the very end (they are the user interface!) 
   
-- Test with Jupyter notebooks
+- Test with Jupyter notebooks (user interface)
   - Uninstall current version  
     ```
     pip uninstall pykneer
