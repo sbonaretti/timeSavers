@@ -45,7 +45,7 @@
   unique_elements = list(my_list_set) # note that "list"  here is a function   
   ```
   
-  
+--- 
 
 ### Strings  
 - Find substring in string:  
@@ -93,13 +93,17 @@
     part1 = url.rsplit('/', 1)[0]
     part2 = url.rsplit('/', 1)[1]
     ```
-  
+
+---
+
 ### Tuples  
 - Find element in tuples and get index:  
   ```
   if element in tuple:
         index = tuple.index(element)
   ```
+
+---
 
 ### Packages  
 
@@ -108,8 +112,12 @@
 - To remove a package: `pip uninstall <packageName>`
 - To list packages: `pip freeze`  
 
+---
+
 ### Python version 
 - To know python version: `python --version`
+
+---
 
 ### Kill all python processes
 - In terminal: `pkill -f python`
