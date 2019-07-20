@@ -72,8 +72,18 @@
   ```
 - Substitute sub_string in string:  
   ```
-  main_string = main_string.replace('old_sub_string', 'new_sub_string')
-  ```
+  main_string = main_string.replace('old_sub_string', 'new_sub_string')  
+  ```  
+- Split string: 
+  - In two parts, before and after character: 
+    ```
+    part1, part2 = url.rsplit('/', 1)
+    ```
+  - Get only first or second part:  
+    ```
+    part1 = url.rsplit('/', 1)[0]
+    part2 = url.rsplit('/', 1)[1]
+    ```
   
 ### Tuples  
 - Find element in tuples and get index:  
