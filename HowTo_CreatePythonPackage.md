@@ -31,7 +31,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 
 ### Modifying code 
-- Spyder 
+- **Spyder** 
   - Open spyder in virtual environment: 
     ```
     spyder
@@ -41,7 +41,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
   - Fix bugs / Implement and test new code in spyder - leave the Jupyter notebooks to the very end (they are the user interface!) 
   
-- Test with Jupyter notebooks (user interface)
+- **Jupyter notebooks** (user interface)
   - Uninstall current version  
     ```
     pip uninstall pykneer
