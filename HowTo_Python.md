@@ -101,6 +101,11 @@
   ```
   if element in tuple:
         index = tuple.index(element)
+  ```  
+- Check if tuple is empty:  
+  ```
+  if len(tuple) == 0: 
+     ...
   ```
 
 ---
