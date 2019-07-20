@@ -1,6 +1,11 @@
 # How to: python  
 
-- [Lists](@Lists)
+- [Lists](#Lists)  
+- [Strings](#Strings)  
+- [Tuples](#Tuples)  
+- [Packages](#Packages)  
+- [Python version](#Python-version)  
+- [Kill all python processes](#Kill-all-python-processes)
 
 
 ### Lists
