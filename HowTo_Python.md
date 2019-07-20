@@ -1,6 +1,6 @@
 # How to: python  
 
-@List
+- [Lists](@Lists)
 
 
 ### Lists
