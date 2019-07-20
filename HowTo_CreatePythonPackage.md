@@ -41,6 +41,10 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
   - Fix bugs / Implement and test new code in spyder - leave the Jupyter notebooks to the very end (they are the user interface!) 
   
+- **PyCharm**
+  - Used for the editing of the code documentation because it has grammar check inside   
+  - Not used for coding because it does not have the iphython module (need to run the whole function to debug, like VisualStudio)
+  
 - **Jupyter notebooks** (user interface)
   - Uninstall current version  
     ```
