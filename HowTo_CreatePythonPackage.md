@@ -32,7 +32,11 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 ### Modifying code 
 - **Spyder** 
-  - Open spyder in virtual environment: 
+  - Make sure you are in virtual environment:  
+    ```
+    source pyKNEEr/bin/activate
+    ```  
+  - Open spyder from terminal: 
     ```
     spyder
     ```   
@@ -62,7 +66,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
     ```
     Note: package is installed in the directory as `setup.py`, not in the parent directory  
     
-  - Launch JupyterLab:
+  - Launch JupyterLab from terminal:
     ```
     jupyter lab
     ```  
