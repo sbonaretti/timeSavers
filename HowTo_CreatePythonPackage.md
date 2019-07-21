@@ -46,25 +46,31 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   - Not used for coding because it does not have the iphython module (need to run the whole function to debug, like VisualStudio)
   
 - **Jupyter notebooks** (user interface)
-  - Uninstall current version  
+  - Make sure you are in virtual environment:  
+    ```
+    source pyKNEEr/bin/activate
+    ```  
+  - Uninstall current version:  
     ```
     pip uninstall pykneer
     ```  
     (For ITK: installed packages are in `lib/python3.7/site-packages`)
 
-  - Install work-in-progress version   
+  - Install work-in-progress version:   
     ```
     python setup.py develop
     ```
-    Note: package is installed in the directory as `setup.py`, not in the parent directory
+    Note: package is installed in the directory as `setup.py`, not in the parent directory  
+    
+  - Launch JupyterLab:
+    ```
+    jupyter lab
+    ```  
+    To close: `crtl + c`
 
-  - Re-import pykneer (top of notebook)
-
+  - Make sure to re-import pykneer in top of notebook
 
 ---
- 
- 
- 
  
  
 **For version 0.0.3**  
