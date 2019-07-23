@@ -72,7 +72,13 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
     ```  
     To close: `crtl + c`
 
-  - Make sure to re-import pykneer in top of notebook
+  - `import pykneer` in top of notebook  
+    If this does not work, create a [new kernel](https://anbasile.github.io/programming/2017/06/25/jupyter-venv/):  
+    ```
+    pip install ipykernel
+    ipython kernel install --user --name=projectname
+    ```
+    Select the new kernel from the notebook (top-right)
 
 ---
  
