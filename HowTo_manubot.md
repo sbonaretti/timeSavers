@@ -20,18 +20,20 @@ Instruction: https://github.com/manubot/rootstock
   ```
   cd ..
   ```
-  
-- Build the manuscript: 
-  - make sure the virtual environment is active: 
+
+## Building the manuscript
+At the beginning of the session:
+  - Activate the virtual environment in the parent directory `./manubot/`: 
     ```
     conda activate manubot
     ```
-  - in `.html` and `.pdf`:  
+Build the manuscript: 
+  - In `.html` and `.pdf`:  
     ```
     sh build/build.sh             # Created files are in `output` and figures are not rendered in `.html`
     python build/webpage.py       # Created files are in `parentFolder/webpage/v/local` and figures are rendered
     ```
-  - in `.docx`:
+  - In `.docx`:
     ```
     BUILD_DOCX=true sh build/build.sh
     python build/webpage.py
