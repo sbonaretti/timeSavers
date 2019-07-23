@@ -15,13 +15,13 @@ In the terminal:
     export PATH=yourelastixdir:$PATH
     export DYLD_LIBRARY_PATH=yourelastixdir:$DYLD_LIBRARY_PATH
     ```
-    where ``yourelastixdir`` is something similar to `/anaconda3/lib/python3.7/site-packages/pykneer/elastix/Linux/`
+    where ``yourelastixdir`` is something similar to `/anaconda3/lib/python3.7/site-packages/pykneer/elastix/Darwin/`
   - Linux: 
     ```
     export PATH=yourelastixdir:$PATH
     export LD_LIBRARY_PATH=yourelastixdir:$LD_LIBRARY_PATH
     ```
-    where ``yourelastixdir`` is something similar to `/anaconda3/lib/python3.7/site-packages/pykneer/elastix/Darwin/`
+    where ``yourelastixdir`` is something similar to `/anaconda3/lib/python3.7/site-packages/pykneer/elastix/Linux/`
 
 - Save changes by pressing: ctrl+o; return;
 - Close file by pressing: ctrl+x
