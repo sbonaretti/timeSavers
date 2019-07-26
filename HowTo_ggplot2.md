@@ -145,7 +145,7 @@ Note: `geom_text` is much slower
   ```
 - Remove a legend  
   - Option 1: Add the item that creates the legend in `geom_xxx`, but not in the `aes`  
-  - Option 2: Add `show_guide = FALSE` in `geom_xxx`, outside `aes`
+  - Option 2: Add `show_legend = FALSE` in `geom_xxx`, outside `aes`
 
 - Put two legends next to each other:  
   ```
