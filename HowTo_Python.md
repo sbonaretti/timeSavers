@@ -5,7 +5,8 @@
 - [Tuples](#Tuples)  
 - [Packages](#Packages)  
 - [Python version](#Python-version)  
-- [Kill all python processes](#Kill-all-python-processes)
+- [Kill all python processes](#Kill-all-python-processes)  
+- [Get time of process](#Get-time-of-process))
 
 ---
 
@@ -126,5 +127,16 @@
 
 ### Kill all python processes
 - In terminal: `pkill -f python`
+
+---
+
+### Get time of process 
+- To print out the time of a process:
+  ```
+  import time
+  start_time = time.time()
+  # [code here]
+  print ("-> The total time was %.2f seconds (about %d min)" % ((time.time() - start_time), (time.time() - start_time)/60))
+  ```
 
 
