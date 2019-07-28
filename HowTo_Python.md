@@ -6,7 +6,7 @@
 - [Packages](#Packages)  
 - [Python version](#Python-version)  
 - [Kill all python processes](#Kill-all-python-processes)  
-- [Get time of process](#Get-time-of-process))
+- [Get time of process](#Get-time-of-process)
 
 ---
 
