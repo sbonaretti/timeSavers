@@ -39,7 +39,10 @@
   ```
 - Change column name 
   ```
+  # option 1
   df1.rename (columns={"A" : "first_column", "B": "second_column"}, inplace=True)
+  # option 2
+  df.columns = ['first_column', 'second_column']
   ```
 - Extract column as list  
   ```
