@@ -27,6 +27,10 @@
   ```
   df.index = np.arange(1,len(df)+1) # start counting rows from 1
   ```
+- Add column  
+  ```
+  df['column_name'] = list
+  ```
 - Move column to first column
   ```
   col = df['column_label']
