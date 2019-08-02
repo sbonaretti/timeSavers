@@ -1,5 +1,7 @@
 # How To: ggplot2
 
+## Prerequisites
+
 - In Jupyter notebook's header:
   ```
   import os
@@ -24,6 +26,11 @@
   ggsave("file_name.pdf", plot = last_plot(), width=3, height=4, dpi=300)
   ```
 Note: Never put anything (e.g. comment) before the `%%R`, otherwise `UsageError: Line magic function `%%R` not found.` 
+
+## Data organization  
+The most important thing is to organize data in a dataframe where columns contain the main message to visualize. Add columns with labels if you want to group your visualization based on colors, shapes, filling, and size.
+
+
 
 
 ## Geometries  
