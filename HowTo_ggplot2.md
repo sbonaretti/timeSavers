@@ -29,7 +29,7 @@ Note: Never put anything (e.g. comment) before the `%%R`, otherwise `UsageError:
 
 ## Data organization  
 - The most important thing is to organize data in a dataframe where columns contain the main message to visualize  
-- Add columns with variables to group label data with colors, shapes, filling, and size:
+- Add columns with variables to group label data with shape, size, colors,and filling:
   ```
   example:
   
@@ -40,7 +40,7 @@ Note: Never put anything (e.g. comment) before the `%%R`, otherwise `UsageError:
   3	1.000	    0.000	    yes             manual         B
   ...
   ``` 
-- In the plot, use the information in the dataframe to determine colors, shapes, filling, and size:   
+- In the plot, use the information in the dataframe to determine shape, size, colors,and filling:  
   ```
   example: 
   
