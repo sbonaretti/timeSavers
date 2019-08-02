@@ -28,10 +28,29 @@
 Note: Never put anything (e.g. comment) before the `%%R`, otherwise `UsageError: Line magic function `%%R` not found.` 
 
 ## Data organization  
-The most important thing is to organize data in a dataframe where columns contain the main message to visualize. Add columns with labels if you want to group your visualization based on colors, shapes, filling, and size.
-
-
-
+- The most important thing is to organize data in a dataframe where columns contain the main message to visualize  
+- Add columns with variables to group label data with colors, shapes, filling, and size:
+  ```
+  example:
+  
+  	value_1	  value_2	  col_for_shape	  col_for_size	 col_for_colors
+  0	0.000	    0.000	    yes	            manual         A
+  1	1.000	    1.000	    no	   	        automatic      B
+  2	1.000	    1.000	    yes 	          automatic      A
+  3	1.000	    0.000	    yes 	          manual         B
+  ...
+  ``` 
+- In the plot, use the information in the dataframe to determine colors, shapes, filling, and size:   
+  ```
+  example: 
+  
+  geom_point(data=df, aes(x=x_values, y=y_values, 
+                          size=col_for_size, 
+                          shape=col_for_shape, 
+                          color=col_for_colors,
+                          fill=col_for_colors)) +
+  ```
+  
 
 ## Geometries  
 
