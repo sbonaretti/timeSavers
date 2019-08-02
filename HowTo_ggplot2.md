@@ -35,9 +35,9 @@ Note: Never put anything (e.g. comment) before the `%%R`, otherwise `UsageError:
   
   	value_1	  value_2	  col_for_shape	  col_for_size	 col_for_colors
   0	0.000	    0.000	    yes	            manual         A
-  1	1.000	    1.000	    no	   	        automatic      B
-  2	1.000	    1.000	    yes 	          automatic      A
-  3	1.000	    0.000	    yes 	          manual         B
+  1	1.000	    1.000	    no              automatic      B
+  2	1.000	    1.000	    yes             automatic      A
+  3	1.000	    0.000	    yes             manual         B
   ...
   ``` 
 - In the plot, use the information in the dataframe to determine colors, shapes, filling, and size:   
