@@ -5,7 +5,9 @@ Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/v
 - Edit video using iMovie  
   - Projects -> Click on the `+`  
   - Drag and drop videos  
-  - To cut: position the line to the place of interest and then 
+  - To split video in parts:   
+    - Position the line to the place of interest
+    - `command` + `b`
 
 
 ## To record terminal  (not used)
