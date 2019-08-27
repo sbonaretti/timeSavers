@@ -2,8 +2,10 @@
 
 Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/videos   
 - Record screen using QuickTime: https://www.youtube.com/watch?v=mLyPrblmPp4
-- Edit video using iMovie
-
+- Edit video using iMovie  
+  - Projects -> Click on the `+`  
+  - Drag and drop videos  
+  - To cut: position the line to the place of interest and then 
 
 
 ## To record terminal  (not used)
