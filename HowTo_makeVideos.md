@@ -7,7 +7,8 @@ Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/v
   - Drag and drop videos  
   - To split video in parts:   
     - Position the line to the place of interest
-    - `command` + `b`
+    - `command` + `b`  
+  - Save: icon top-right -> file
 
 
 ## To record terminal  (not used)
