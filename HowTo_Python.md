@@ -115,8 +115,9 @@
 
 - To install a package: `pip install <packageName>`  
 - To update a package: `pip install <packageName> --upgrade`  
+- To install a specific version of a package: `pip install --force-reinstall <packageName>==1.2.0`  
 - To remove a package: `pip uninstall <packageName>`
-- To list packages: `pip freeze`  
+- To list packages: `pip freeze`   
 
 ---
 
