@@ -2,7 +2,7 @@
 
 Notes on HOW TO use and create software tools (mainly)
 
-They might not be comprehensive 
+They are notes I write while working and solving issues, so they might not be comprehensive 
 
 ---
 
