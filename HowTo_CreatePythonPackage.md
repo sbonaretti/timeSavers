@@ -82,8 +82,10 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
     Select the new kernel from the notebook (top-right)
 
 
-### Testing code
-
+### Testing code  
+- Make sure you are in virtual environment:  
+    ```
+    source pyKNEEr/bin/activate
 
 
 ---
