@@ -80,11 +80,16 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
     ```
     Select the new kernel from the notebook (top-right)
 
+
+### Test code
+
+
+
 ---
  
  
 **For version 0.0.3**  
-&nbsp; [Testing new code](#testing-new-code)  
+&nbsp; [Trying new code](#trying-new-code)  
 &nbsp; [Create the new package](#create-the-new-package)     
 &nbsp; [Test the new package](#test-the-new-package)     
 &nbsp; [Release](#release)     
@@ -94,7 +99,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   ```
   source pip/bin/activate
   ```
-### Testing new code  
+### Trying new code  
 - Uninstall current version  
   ```
   pip uninstall pykneer
@@ -117,7 +122,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   It creates ``dist/*.whl``, which is the executable
   
 
-### Test new package  
+### Try new package  
 - Create a new virtual environment and activate it
   ```
   virtualenv test_release
