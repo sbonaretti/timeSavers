@@ -53,7 +53,8 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 - **Jupyter notebooks** (user interface)
   - Make sure you are in virtual environment:  
     ```
-    source pyKNEEr/bin/activate
+    cd to folder /pyKNEEr/ (where the folder bin is)
+    source bin/activate
     ```  
   - Uninstall current version:  
     ```
@@ -63,6 +64,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
   - Install work-in-progress version:   
     ```
+    cd to folder /pyKNEEr/pykneer (where the file setup.py is)
     python setup.py develop
     ```
     Note: package is installed in the directory as `setup.py`, not in the parent directory  
