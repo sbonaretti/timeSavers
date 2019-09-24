@@ -53,7 +53,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 - **Jupyter notebooks** (user interface)
   - Make sure you are in virtual environment:  
     ```
-    cd to folder /pyKNEEr/ (where the folder bin is)
+    # cd to folder /pyKNEEr/ (where the folder bin is)
     source bin/activate
     ```  
   - Uninstall current version:  
@@ -64,7 +64,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
   - Install work-in-progress version:   
     ```
-    cd to folder /pyKNEEr/pykneer (where the file setup.py is)
+    # cd to folder /pyKNEEr/pykneer (where the file setup.py is)
     python setup.py develop
     ```
     Note: package is installed in the directory as `setup.py`, not in the parent directory  
@@ -75,8 +75,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
     ```  
     To close: `crtl + c`
 
-  - `import pykneer` in top of notebook  
-    If this does not work, create a [new kernel](https://anbasile.github.io/programming/2017/06/25/jupyter-venv/):  
+  - Use pyKNEEr's kernel if already existing. If not, create a [new kernel](https://anbasile.github.io/programming/2017/06/25/jupyter-venv/):  
     ```
     pip install ipykernel
     ipython kernel install --user --name=projectname
