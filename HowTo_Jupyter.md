@@ -6,6 +6,21 @@
 %autoreload 2
 ```
 
+## Create kernel
+To create a [new kernel](https://anbasile.github.io/programming/2017/06/25/jupyter-venv/):  
+    ```
+    pip install ipykernel
+    ipython kernel install --user --name=projectname
+    ```
+    Select the new kernel from the notebook (top-right)
+
+## Uninstall kernel
+To [delete a kernel](https://stackoverflow.com/questions/42635310/remove-kernel-on-jupyter-notebook)  
+    ```
+    jupyter kernelspec list  # to get the paths of all your kernels. 
+    jupyter kernelspec uninstall unwanted-kernel-name # to uninstall your unwanted-kernel-name
+    ```
+
 ## Installing widgets
 ```
 pip install ipywidgets
