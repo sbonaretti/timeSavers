@@ -28,16 +28,36 @@ Definitions:
 ## CSS  
 
 - Different kinds of HTML selectors are called in different ways in CSS:  
-  - Selector:   
+  - Tag selector:   
     ```
     HTML
     <p>Text</p>
+    
     CSS
     p {
        color: red;
     }
-    
+    ```  
+  - Class selector:  
     ```
+    HTML
+    <p class="withborder">Text</p>
+    
+    CSS
+    .withborder { # note the dot
+       color: red;
+    }
+    ``` 
+  - ID selector:  
+    ```
+    HTML
+    <h1 id="page-title">Text</h1>
+    
+    CSS
+    #page-title { # note the #
+       color: red;
+    }
+    ``` 
 
 
 **References**  
