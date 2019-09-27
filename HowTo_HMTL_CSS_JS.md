@@ -91,7 +91,7 @@ Definitions:
   }
   let result = add(5,3);
   ```  
-- Conditional:  
+- Conditional (if):  
   ```
   let color;
   
@@ -101,9 +101,15 @@ Definitions:
       color = "red"
   }
   ```
-  can also be  
+  can also be:
   ```
   let color = v1 ===10? "blue" : "red" 
+  ```  
+- For loop:  
+  ```
+  for (let i=1; i<21; i+=1){
+      console.log(i)
+  }
   ```
  
 **References**  
