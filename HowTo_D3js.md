@@ -1,6 +1,10 @@
 # How to: D3js
 
-[Installation](#Installation)
+[Installation](#Installation)  
+[Start server using python ](#Start server using python )
+
+
+
 --- 
 D3js provides two different kinds of method:  
 - To transform data  
@@ -25,7 +29,7 @@ D3js provides two different kinds of method:
   localhost:server_number
   ```
 
-## Steps for visualizations:  
+## Steps for visualizations  
 - Transform data  (e.g. `d3.cross`, `d3.max`)
 - Map data to image space (e.g. dollars to n. of pixels)  (e.g. `d3.scaleLinear`, `d3.scaleTime`)
 - Compute the layout  (e.g. `d3.path`, `d3.treemap`)
