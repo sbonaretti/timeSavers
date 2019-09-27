@@ -64,7 +64,11 @@ Definitions:
     #page-title { # note the #
        color: red;
     }
-    ``` 
+    ```   
+    
+- Margin vs padding:  
+  - *margin* is the distance between an HTMl element and the page border  
+  - *padding* is the distance between the page border and the text inside the HTML element  
 
 
 **References**  
