@@ -15,7 +15,7 @@
   ```
   
 ## Start server  
-A server is needed to upload the data. Put data and index.html in the same folder.  
+A server is needed to upload data and files when using d3js. Put data and index.html in the same folder.  
 - Using python:   
   - On terminal, start a server: 
     ```
