@@ -130,13 +130,23 @@ Definitions:
             break;
     }
     ```
- - Add js at the end of the `.html` file:  
+ - Add the `.js` file at the end of the `.html` file:  
    ```
    ...
    </body>  
    <script src="script.js">
    </script>  
    </html>
+   ```  
+ - Example:  
+   ```
+   <script>  
+       let Name = "John";
+       let Weight = 196;  
+       let Height = 90;
+       
+       document.write (Name) # document refers to the actual HTML page. This function writes John in the rendered html page
+   </script>  
    ```
    
 **References**  
