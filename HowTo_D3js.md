@@ -64,7 +64,7 @@ A server is needed to upload data and files when using d3js. Put data and index.
          }) 
          
          function write(text) { # this function is written below the line where it is called
-             container.append("div").text(text) # provide text to the container
+             container.append("div").text(text) # provide text to the container; no need to pass container as a variable
          }
    </script> 
    
