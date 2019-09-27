@@ -70,7 +70,18 @@ Definitions:
   - *margin* is the distance between an HTML element and the page border  
   - *padding* is the distance between the page border and the text inside the HTML element  
 
-## javascript  
+## javascript    
+- Variables  
+  ```
+  let lastName = "Doe" # in newer js versions (var name = "John" in older js versions)  
+  let result = 3+2 
+  ```
+- Operators  
+  ```
+  let result = 3+2  
+  let name = firstName + lastName
+  let result = 3 >=2 # gives true
+  ```
 
 **References**  
 - *Information Visualization: Programming with D3.js* on Coursera  
