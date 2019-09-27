@@ -76,12 +76,16 @@ Definitions:
   let lastName = "Doe" # in newer js versions (var name = "John" in older js versions)  
   let result = 3+2 
   ```
-- Operators  
+- Operators:  
   ```
   let result = 3+2  
   let name = firstName + lastName
   let result = 3 >=2 # gives true
+  === equal
+  !== not equal
   ```
+- Functions:    
+  
 
 **References**  
 - *Information Visualization: Programming with D3.js* on Coursera  
