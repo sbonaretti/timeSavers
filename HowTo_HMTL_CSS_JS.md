@@ -2,12 +2,13 @@
 
 Definitions:  
 - [HTML](#html) is to create a structure to a page - we say what things are   
-- CSS is for the style  
+- [CSS](#css) is for the style  
 - JavaScript is for interaction and adding changes to the page  
 
 
-## HTML  
-- Basic snapshot:  
+## HTML   
+- Core code:   
+
   ```
   <!DOCTYPE html>
   <html>
@@ -23,6 +24,8 @@ Definitions:
   
   </html>
   ```
+
+## CSS  
 
 
 
