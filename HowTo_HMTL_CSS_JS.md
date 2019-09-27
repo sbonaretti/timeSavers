@@ -179,39 +179,39 @@ Definitions:
    </script>  
    ```    
 - Example 3: Using arrays and loops:    
-```
- <script>  
+  ```
+   <script>  
 
-     # use array of structures 
-     let clients = [
-         { 
-             Name:  "John", 
-             Weight: 196,  
-             Height: 90,
-         },   # elements separated by comma
-         { 
-             Name:  "Jane", 
-             Weight: 186,  
-             Height: 80,
-         }
-     ]
+       # use array of structures 
+       let clients = [
+           { 
+               Name:  "John", 
+               Weight: 196,  
+               Height: 90,
+           },   # elements separated by comma
+           { 
+               Name:  "Jane", 
+               Weight: 186,  
+               Height: 80,
+           }
+       ]
 
-     # calculate bmi with function
-     const KG_PER_KILO = 0.45
-     const INCH_TO_METER = 0.0254  
-     function getBMI(client){
-         let WeightInKg = Weight * KG_PER_KILO    # client.Weight -> client.Weight
-         let HeightInM  = Height * INCH_TO_METER  # client.Height -> client.Height
-         let BMI = WeightInKg/ HeightInM / HeightInM  
-         return BMI
-      }
-      for (let i = 0; i<client.length, i++){ # arrays start from 0
-            let client = clients[i];
-            let bmi = getBMI(client)
-            document.write (client.Name + ": " + bmi + </br>)
-      }
- </script>  
- ```    
+       # calculate bmi with function
+       const KG_PER_KILO = 0.45
+       const INCH_TO_METER = 0.0254  
+       function getBMI(client){
+           let WeightInKg = Weight * KG_PER_KILO    # client.Weight -> client.Weight
+           let HeightInM  = Height * INCH_TO_METER  # client.Height -> client.Height
+           let BMI = WeightInKg/ HeightInM / HeightInM  
+           return BMI
+        }
+        for (let i = 0; i<client.length, i++){ # arrays start from 0
+              let client = clients[i];
+              let bmi = getBMI(client)
+              document.write (client.Name + ": " + bmi + </br>)
+        }
+   </script>  
+   ```    
  
    
 **References**  
