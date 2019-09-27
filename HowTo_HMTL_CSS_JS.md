@@ -105,12 +105,21 @@ Definitions:
   ```
   let color = v1 ===10? "blue" : "red" 
   ```  
-- For loop:  
-  ```
-  for (let i=1; i<21; i+=1){
-      console.log(i)
-  }
-  ```
+- Loops:    
+  - For: 
+    ```
+    for (let i=1; i<21; i+=1){
+        console.log(i)
+    }
+    ```  
+  - While:  
+    ```
+    let i=1  
+    while (i<21){
+        console.log(i) 
+        i+=1
+    }
+    ```
  
 **References**  
 - *Information Visualization: Programming with D3.js* on Coursera  
