@@ -10,6 +10,12 @@ D3js provides two different kinds of method:
   <script src="d3.js">  
   </script>
   ```
+## Steps for visualizations:  
+- Transform data  
+- Map data to image space (e.g. dollars to n. of pixels)  
+- Compute the layout  
+- Draw the chart 
+
 
 **References**  
 - *Information Visualization: Programming with D3.js* on Coursera  
