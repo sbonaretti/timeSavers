@@ -159,6 +159,7 @@ Definitions:
 - Example 2: Using a function:    
   ```
    <script>  
+   
        # use data struct
        let client = { 
        Name:  "John", # let is deleted, = becomes :, and ; becomes ,
@@ -166,14 +167,16 @@ Definitions:
        Height: 90,
        }
        
-       
-       # calculate bmi
+       # calculate bmi with function
        const KG_PER_KILO = 0.45
        const INCH_TO_METER = 0.0254  
-       let WeightInKg = Weight * KG_PER_KILO
-       let HeightInM  = Height * INCH_TO_METER  
-       let BMI = WeightInKg/ HeightInM / HeightInM
-       document.write (Name + ": " + BMI)
+       function getBMI(client){
+           let WeightInKg = Weight * KG_PER_KILO    # client.Weight -> client.Weight
+           let HeightInM  = Height * INCH_TO_METER  # client.Height -> client.Height
+           let BMI = WeightInKg/ HeightInM / HeightInM  
+           return BMI
+        }
+       document.write (client.Name + ": " + getBMI(client))
    </script>  
    ```    
    
