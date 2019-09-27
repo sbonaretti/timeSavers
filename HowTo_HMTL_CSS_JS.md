@@ -27,6 +27,13 @@ Definitions:
 
 ## CSS  
 
+- Include link to `.css` file in `.html` `<head>`:  
+  ```
+  <head> 
+      <link rel="stylesheet" href="style.css">
+  </head>
+  ```
+
 - Different kinds of HTML selectors are called in different ways in CSS:  
   - Tag selector:   
     ```
