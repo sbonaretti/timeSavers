@@ -27,6 +27,17 @@ Definitions:
 
 ## CSS  
 
+- Different kinds of HTML selectors are called in different ways in CSS:  
+  - Selector:   
+    ```
+    HTML
+    <p>Text</p>
+    CSS
+    p {
+       color: red;
+    }
+    
+    ```
 
 
 **References**  
