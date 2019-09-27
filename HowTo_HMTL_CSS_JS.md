@@ -208,7 +208,7 @@ Definitions:
       for (let i = 0; i<client.length, i++){ # arrays start from 0
             let client = clients[i];
             let bmi = getBMI(client)
-            document.write (client.Name + ": " + bmi)
+            document.write (client.Name + ": " + bmi + </br>)
       }
  </script>  
  ```    
