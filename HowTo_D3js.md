@@ -12,7 +12,7 @@
   ```
   <script src="d3.js">  
   </script>
-  ```
+  ```  
   
 ## Start server  
 A server is needed to upload data and files when using d3js. Put data and index.html in the same folder.  
