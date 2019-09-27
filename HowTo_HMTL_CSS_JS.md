@@ -138,16 +138,45 @@ Definitions:
    </script>  
    </html>
    ```  
- - Example:  
+ - Example 1: Writing in HTML:  
    ```
    <script>  
        let Name = "John";
        let Weight = 196;  
        let Height = 90;
        
-       document.write (Name) # document refers to the actual HTML page. This function writes John in the rendered html page
+       # write to page
+       document.write (Name) # document refers to the actual HTML page. This function writes John in the rendered html page   
+       # calculate bmi
+       const KG_PER_KILO = 0.45
+       const INCH_TO_METER = 0.0254  
+       let WeightInKg = Weight * KG_PER_KILO
+       let HeightInM  = Height * INCH_TO_METER  
+       let BMI = WeightInKg/ HeightInM / HeightInM
+       document.write (Name + ": " + BMI)
    </script>  
-   ```
+   ```    
+- Example 2: Using a function:    
+  ```
+   <script>  
+       # use data struct
+       let client = { 
+       Name:  "John", # let is deleted, = becomes :, and ; becomes ,
+       Weight: 196,  
+       Height: 90,
+       }
+       
+       
+       # calculate bmi
+       const KG_PER_KILO = 0.45
+       const INCH_TO_METER = 0.0254  
+       let WeightInKg = Weight * KG_PER_KILO
+       let HeightInM  = Height * INCH_TO_METER  
+       let BMI = WeightInKg/ HeightInM / HeightInM
+       document.write (Name + ": " + BMI)
+   </script>  
+   ```    
+   
    
 **References**  
 - *Information Visualization: Programming with D3.js* on Coursera  
