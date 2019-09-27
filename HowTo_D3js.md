@@ -50,17 +50,20 @@ A server is needed to upload data and files when using d3js. Put data and index.
    <body>
        <div id="container"></div> # data will be given to container 
    </body>
+   
    <script src"d3.js"></script> # import d3js 
+   
    <script>
        let container = d3.select("#container") # connects to the html container  
+       
        d3.csv("file_name.csv")
          .then(function (data)){ #using anonimous function, i.e. without name + providing data to the function
              for (let client of data){ # for loop thought data
                  write (client.Name)
              }
          }) 
-         # the following function is written below the line where it is called
-         function write(text) {
+         
+         function write(text) { # this function is written below the line where it is called
              container.append("div").text(text) # provide text to the container
          }
    </script> 
