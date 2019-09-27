@@ -130,7 +130,15 @@ Definitions:
             break;
     }
     ```
- 
+ - Add js at the end of the `.html` file:  
+   ```
+   ...
+   </body>  
+   <script src="script.js">
+   </script>  
+   </html>
+   ```
+   
 **References**  
 - *Information Visualization: Programming with D3.js* on Coursera  
  
