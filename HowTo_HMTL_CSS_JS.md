@@ -38,7 +38,7 @@ Definitions:
        color: red;
     }
     ```  
-  - Class selector:  
+  - Class selector (dot):  
     ```
     HTML
     <p class="withborder">Text</p>
@@ -48,7 +48,7 @@ Definitions:
        color: red;
     }
     ``` 
-  - ID selector:  
+  - ID selector (ashtag):  
     ```
     HTML
     <h1 id="page-title">Text</h1>
