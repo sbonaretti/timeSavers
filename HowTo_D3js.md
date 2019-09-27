@@ -11,10 +11,10 @@ D3js provides two different kinds of method:
   </script>
   ```
 ## Steps for visualizations:  
-- Transform data  
-- Map data to image space (e.g. dollars to n. of pixels)  
-- Compute the layout  
-- Draw the chart 
+- Transform data  (e.g. `d3.cross`, `d3.max`)
+- Map data to image space (e.g. dollars to n. of pixels)  (e.g. `d3.scaleLinear`, `d3.scaleTime`)
+- Compute the layout  (e.g. `d3.path`, `d3.treemap`)
+- Draw the chart (e.g. `d3.select`, `d3.append`)
 
 
 **References**  
