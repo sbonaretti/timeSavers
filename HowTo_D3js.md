@@ -1,8 +1,8 @@
 # How to: D3js
 
 [Installation](#Installation)  
-[Start server using python ](#Start_server_using_python )
-
+[Start server](#Start_server)
+[Steps for visualizations](#Steps_for_visualizations)
 
 
 --- 
@@ -17,17 +17,21 @@ D3js provides two different kinds of method:
   </script>
   ```
   
-## Start server using python   
-- On terminal, start a server: 
-  ```
-  cd to folder  
-  python -m http.server 
-  ```  
-  and get the server number 
-- On chrome, type:  
-  ```
-  localhost:server_number
-  ```
+## Start server  
+A server is needed to upload the data. Put data and index.html in the same folder.  
+- Using python:   
+  - On terminal, start a server: 
+    ```
+    cd to folder  
+    python -m http.server 
+    ```  
+    and get the server address 
+  - On chrome, type:  
+    ```
+    localhost:server_address
+    ```  
+    and I can see `index.html` rendered (if `index.html` not there, I see the folder content)  
+- Atom: 
 
 ## Steps for visualizations  
 - Transform data  (e.g. `d3.cross`, `d3.max`)
