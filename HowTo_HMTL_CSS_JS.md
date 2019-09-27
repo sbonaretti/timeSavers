@@ -101,6 +101,10 @@ Definitions:
       color = "red"
   }
   ```
+  can also be  
+  ```
+  let color = v1 ===10? "blue" : "red" 
+  ```
  
 **References**  
 - *Information Visualization: Programming with D3.js* on Coursera  
