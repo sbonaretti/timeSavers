@@ -3,7 +3,7 @@
 [Installation](#Installation)  
 [Start server](#Start_server)  
 [Steps for visualizations](#Steps_for_visualizations)
-
+[Loading data](#Loading_data)
 
 --- 
 
