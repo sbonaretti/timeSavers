@@ -36,6 +36,15 @@ A server is needed to upload data and files when using d3js. Put data and index.
 - Compute the layout  (e.g. `d3.path`, `d3.treemap`)
 - Draw the chart (e.g. `d3.select`, `d3.append`)
 
+## Loading data  
+- Data are in `.json` or `.csv` 
+- Loading requires a server
+- The process is asynchronous. If we want to do something with the data, we need to provide a callback:  
+   ```
+   d3.csv(dataUrl) #for json: d3.json(dataUrl)
+     .then(callback) # once the data is ready, we can run the method (not before)
+     .catch(errorHandler) # to check if there are loading errors
+   ```
 
 ---
 
