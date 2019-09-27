@@ -119,6 +119,16 @@ Definitions:
         console.log(i) 
         i+=1
     }
+    ```  
+  - Break:  
+    ```
+    let i=1  
+    while (true){
+        console.log(i) 
+        i+=1 
+        if (i>21)  
+            break;
+    }
     ```
  
 **References**  
