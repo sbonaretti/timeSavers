@@ -1,7 +1,7 @@
 # How to: D3js
 
 [Installation](#Installation)  
-[Start server](#Start_server)
+[Start server](#Start_server)  
 [Steps for visualizations](#Steps_for_visualizations)
 
 
