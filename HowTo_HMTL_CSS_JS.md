@@ -67,7 +67,7 @@ Definitions:
     ```   
     
 - Margin vs padding:  
-  - *margin* is the distance between an HTMl element and the page border  
+  - *margin* is the distance between an HTML element and the page border  
   - *padding* is the distance between the page border and the text inside the HTML element  
 
 
