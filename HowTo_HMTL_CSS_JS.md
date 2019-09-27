@@ -90,6 +90,16 @@ Definitions:
     return v1+v2
   }
   let result = add(5,3);
+  ```  
+- Conditional:  
+  ```
+  let color;
+  
+  if (v1===10){ 
+      color = "blue"
+  } else {
+      color = "red"
+  }
   ```
  
 **References**  
