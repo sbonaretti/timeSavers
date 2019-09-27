@@ -37,6 +37,8 @@ A server is needed to upload the data. Put data and index.html in the same folde
 - Draw the chart (e.g. `d3.select`, `d3.append`)
 
 
+---
+
 **References**  
 - *Information Visualization: Programming with D3.js* on Coursera  
  
