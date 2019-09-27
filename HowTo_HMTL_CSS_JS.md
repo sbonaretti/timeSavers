@@ -3,7 +3,7 @@
 Definitions:  
 - [HTML](#html) is to create a structure to a page - we say what things are   
 - [CSS](#css) is for the style  
-- JavaScript is for interaction and adding changes to the page  
+- [JavaScript](#javascript) is for interaction and adding changes to the page. Changes are due to the data or user interaction  
 
 
 ## HTML   
@@ -70,6 +70,7 @@ Definitions:
   - *margin* is the distance between an HTML element and the page border  
   - *padding* is the distance between the page border and the text inside the HTML element  
 
+## javascript  
 
 **References**  
 - *Information Visualization: Programming with D3.js* on Coursera  
