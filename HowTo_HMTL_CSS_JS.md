@@ -71,7 +71,7 @@ Definitions:
   - *padding* is the distance between the page border and the text inside the HTML element  
 
 ## javascript    
-- Variables  
+- Variables:  
   ```
   let lastName = "Doe" # in newer js versions (var name = "John" in older js versions)  
   let result = 3+2 
@@ -89,6 +89,7 @@ Definitions:
   function add(v1,v2){
     return v1+v2
   }
+  let result = add(5,3);
   ```
  
 **References**  
