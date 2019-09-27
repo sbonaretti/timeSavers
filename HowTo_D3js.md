@@ -1,9 +1,9 @@
 # How to: D3js
 
 [Installation](#Installation)  
-[Start server](#Start server)  
-[Steps for visualizations](#Steps_for_visualizations)  
-[Loading data](#Loading_data)
+[Start server](#Start-server)  
+[Steps for visualizations](#Steps-for-visualizations)  
+[Loading data](#Loading-data)
 
 --- 
 
