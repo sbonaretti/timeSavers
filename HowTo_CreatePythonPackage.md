@@ -118,7 +118,8 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 
 ### Create the new package
-- Update version number in `setup.py`
+- Update version number in `setup.py`  
+- Add new files (if any) to `__init__.py`
 - Create the package
   ```
   python3 setup.py sdist bdist_wheel
