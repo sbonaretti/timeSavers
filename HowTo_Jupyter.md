@@ -2,7 +2,8 @@
 
 ## Auto reload  
 ```
-%load_ext autoreload 
+# Make sure there are no empty spaces at the end of the lines 
+%load_ext autoreload
 %autoreload 2
 ```
 
