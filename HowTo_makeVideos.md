@@ -1,7 +1,8 @@
 # How To: Make videos  
 
 Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/videos   
-- Record screen using QuickTime: https://www.youtube.com/watch?v=mLyPrblmPp4
+- Record screen using QuickTime: https://www.youtube.com/watch?v=mLyPrblmPp4 
+  - File -> New screen recording
 - Edit video using iMovie  
   - Projects -> Click on the `+`  
   - Drag and drop videos  
