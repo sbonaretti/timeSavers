@@ -9,7 +9,10 @@ Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/v
   - Drag and drop videos  
   - To split video in parts:   
     - Position the line to the place of interest
-    - `command` + `b`  
+    - `command` + `b`    
+  - Reduce background noise:  
+    - Equalizer (histogram) icon
+    - Reduce background noise (play with the %) + Equalizer: Voice Enhance
   - To save: icon top-right -> file
 
 
