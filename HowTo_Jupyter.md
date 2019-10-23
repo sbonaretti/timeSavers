@@ -1,5 +1,16 @@
 # How to: Jupyter
 
+## Table of content / internal links  
+In table of content: 
+```
+-[loading data](#loading)
+```  
+In text:
+```
+<a name="loading"></a>
+```
+
+
 ## Auto reload  
 ```
 # Make sure there are no empty spaces at the end of the lines 
