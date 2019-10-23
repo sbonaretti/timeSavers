@@ -5,6 +5,7 @@ Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/v
   - File -> New screen recording
 - Edit video using iMovie  
   - Projects -> Click on the `+`  
+  - Resolution is determined by the first video or photo in the timeline (see [video](https://www.youtube.com/watch?v=eL94evs-k0g))
   - Drag and drop videos  
   - To split video in parts:   
     - Position the line to the place of interest
