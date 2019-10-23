@@ -3,7 +3,7 @@
 ## Table of content / internal links  
 In table of content: 
 ```
--[loading data](#loading)
+[loading data](#loading)
 ```  
 In text:
 ```
