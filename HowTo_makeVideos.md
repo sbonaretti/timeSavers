@@ -2,7 +2,7 @@
 
 Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/videos  
 
-## Tp record: QuickTime
+## To record: QuickTime
 - Info: https://www.youtube.com/watch?v=mLyPrblmPp4 
   - File -> New screen recording
   
