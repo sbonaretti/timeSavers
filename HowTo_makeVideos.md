@@ -2,12 +2,12 @@
 
 Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/videos  
 
-## To record: QuickTime
+## Recording: QuickTime
 - Info: https://www.youtube.com/watch?v=mLyPrblmPp4 
   - File -> New screen recording
 - Note: iMovie makes the movie in 4:3 aspect ratio or 16:9 aspect ratio, so record with this aspect ratio
   
-## To edit: iMovie
+## Editing: iMovie
   
 - Projects -> Click on the `+`  
 - Resolution is determined by the first video or photo in the timeline (see video: https://www.youtube.com/watch?v=eL94evs-k0g) 
@@ -23,7 +23,12 @@ Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/v
 - To save: icon top-right -> file
 
 
-## To record terminal  (not used)
+## Uploading to youtube  
+- Sign in in studio.youtube.com with the google account  
+- Note: It is not possible to replace a video
+
+
+## Recording terminal  (not used)
 
 Asciinema saves in `.cast`, which needs to be transformed to `.gif` and then to `.mp4`. 
 
