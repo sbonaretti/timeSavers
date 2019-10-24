@@ -1,19 +1,24 @@
 # How To: Make videos  
 
-Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/videos   
-- Record screen using QuickTime: https://www.youtube.com/watch?v=mLyPrblmPp4 
+Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/videos  
+
+## QuickTime: record video
+- Info: https://www.youtube.com/watch?v=mLyPrblmPp4 
   - File -> New screen recording
-- Edit video using iMovie  
-  - Projects -> Click on the `+`  
-  - Resolution is determined by the first video or photo in the timeline (see video: https://www.youtube.com/watch?v=eL94evs-k0g)
-  - Drag and drop videos  
-  - To split video in parts:   
-    - Position the line to the place of interest
-    - `command` + `b`    
-  - Reduce background noise:  
-    - Equalizer (histogram) icon
-    - Reduce background noise (play with the %) + Equalizer: Voice Enhance
-  - To save: icon top-right -> file
+  
+## iMovie: edit video  
+  
+- Projects -> Click on the `+`  
+- Resolution is determined by the first video or photo in the timeline (see video: https://www.youtube.com/watch?v=eL94evs-k0g) 
+  - As first item, put a 4K res image, then the first video. Then delete the 4k image - iMovie keeps in memory 4K as the video resolution
+- Drag and drop videos  
+- To split video in parts:   
+  - Position the line to the place of interest
+  - `command` + `b`    
+- Reduce background noise:  
+  - Equalizer (histogram) icon
+  - Reduce background noise (play with the %) + Equalizer: Voice Enhance
+- To save: icon top-right -> file
 
 
 ## To record terminal  (not used)
