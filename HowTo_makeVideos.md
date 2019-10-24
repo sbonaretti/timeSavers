@@ -5,6 +5,7 @@ Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/v
 ## To record: QuickTime
 - Info: https://www.youtube.com/watch?v=mLyPrblmPp4 
   - File -> New screen recording
+- Note: iMovie makes the movie in 4:3 aspect ratio or 16:9 aspect ratio, so record with this aspect ratio
   
 ## To edit: iMovie
   
@@ -18,6 +19,7 @@ Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/v
 - Reduce background noise:  
   - Equalizer (histogram) icon
   - Reduce background noise (play with the %) + Equalizer: Voice Enhance
+- Aspect ratio: if videos are recorded with different aspect ratios, crop the larger videos to the aspect ratio of the smallest one
 - To save: icon top-right -> file
 
 
