@@ -2,11 +2,11 @@
 
 Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/videos  
 
-## QuickTime: record video
+## Tp record: QuickTime
 - Info: https://www.youtube.com/watch?v=mLyPrblmPp4 
   - File -> New screen recording
   
-## iMovie: edit video  
+## To edit: iMovie
   
 - Projects -> Click on the `+`  
 - Resolution is determined by the first video or photo in the timeline (see video: https://www.youtube.com/watch?v=eL94evs-k0g) 
