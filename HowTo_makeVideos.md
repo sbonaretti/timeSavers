@@ -23,11 +23,14 @@ Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/v
 - To save: icon top-right -> file
 
 
-## Uploading to youtube  
+## Publishing: YouTube  
 - Sign in in studio.youtube.com with the google account  
 - Click on the camera icon with a + in the top-right of the page -> Upload video (Beta) -> Fill out info
 - Parameters to select: 
-  - Visibility: Unlisted. The video is uploaded at low res. It takes a few hours before it is available at high res. To check when it is ready, press the settings gear on the video and see whether several quality options appear (https://support.google.com/youtube/answer/71674?hl=en)
+  - Visibility: Unlisted. The video is uploaded at low res. It takes 2-3 hours before the video is available at high res. To check whether it is ready (https://support.google.com/youtube/answer/71674?hl=en):  
+    - Go to Videos (left navigation bar) and click on the video 
+    - Click on the video link under the video preview on the right to open the video's watch page (i.e. the youtube page where the video is displayed)
+    - Click on the settings gear on the video and see whether several quality options appear. If so, the video is ready to be made public 
 - Note: It is not possible to replace a video
 
 
