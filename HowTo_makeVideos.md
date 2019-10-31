@@ -25,6 +25,8 @@ Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/v
 
 ## Uploading to youtube  
 - Sign in in studio.youtube.com with the google account  
+- Click on the camera icon with a + in the top-right of the page -> Upload video (Beta) -> Fill out info
+
 - Note: It is not possible to replace a video
 
 
