@@ -27,7 +27,7 @@ Nice youtube channel: https://www.youtube.com/channel/UCUyUBvmOh4JGVmVIigbYG7A/v
 - Sign in in studio.youtube.com with the google account  
 - Click on the camera icon with a + in the top-right of the page -> Upload video (Beta) -> Fill out info
 - Parameters to select: 
-  - Visibility: Unlisted. The video is uploaded at low res. It takes a few hours before it is available at high res. To check when it is ready, press the video settings gear and see if there are several quality options (https://support.google.com/youtube/answer/71674?hl=en)
+  - Visibility: Unlisted. The video is uploaded at low res. It takes a few hours before it is available at high res. To check when it is ready, press the settings gear on the video and see whether several quality options appear (https://support.google.com/youtube/answer/71674?hl=en)
 - Note: It is not possible to replace a video
 
 
