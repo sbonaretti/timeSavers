@@ -4,7 +4,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 [Upgrade package](#upgrade-package)  
 
-[Create package from scratch](#create-new-package-from scratch)   
+[Create package from scratch](#create-new-package-from-scratch)   
 
 
 --- 
