@@ -150,7 +150,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   - Run all the notebooks of the demo
 
 ### 5. Release new package 
-- Upload to pypi  
+- Upload to pypi:  
   ```
   python3 -m twine upload dist/*
   ```
