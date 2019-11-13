@@ -14,10 +14,11 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 **From version 0.0.4: Working with GitHub branches**  
 
-&nbsp; [1. Set up](#1-Set-up)    
+&nbsp; [1. Set up](#Set-up)    
 &nbsp; [2. Modifying code](#Modifying-code)  
-&nbsp; [Testing code](#Testing-code)
-&nbsp; [Create new package](#Create-package)
+&nbsp; [3. Testing code](#Testing-code)
+&nbsp; [4. Create new package](#Create-new-package)
+&nbsp; [5. Release new package](#Release-new-package)
 
 ### 1.Set up
 - In GitHub desktop, current branch tab (top center) :  
@@ -32,7 +33,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 - Manually update version number in `setup.py`  
 
 
-### Modifying code 
+### 2. Modifying code 
 - **Spyder** 
   - Make sure you are in virtual environment:  
     ```
@@ -99,7 +100,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 )
 
 
-### Testing code  
+### 3. Testing code  
 - Make sure you are in virtual environment:  
     ```
     source pyKNEEr/bin/activate
@@ -107,7 +108,9 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
     ```
     
 ----     
-### Create new package
+### 4. Create new package
+
+#### Create the package
 - Update version number in `setup.py`  
 - Add new files (if any) to `__init__.py`
 - Create the package
@@ -118,7 +121,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   It creates ``dist/*.whl``, which is the executable
 
 
-### Test new package  
+### Test the package  
 - Create a new virtual environment and activate it
   ```
   virtualenv test_release
@@ -144,7 +147,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   - Click the button in the top right of the notebook and select the kernel in test_release  
   - Run all the notebooks of the demo
 
-### Release new package 
+### 5. Release new package 
 - Upload to pypi  
   ```
   python3 -m twine upload dist/*
