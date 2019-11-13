@@ -160,7 +160,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 ---
 
-## CREATE PACKAGE FROM SCRATCH
+## CREATE NEW PACKAGE FROM SCRATCH
 
 &nbsp; [Create a virtual environment](#create-a-virtual-environment)  
 &nbsp; [Folder and file structure](#folder-and-file-structure)  
