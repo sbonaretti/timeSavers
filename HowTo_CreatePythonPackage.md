@@ -14,12 +14,12 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 **From version 0.0.4: Working with GitHub branches**  
 
-&nbsp; [Set up](#Set-up)    
-&nbsp; [Modifying code](#Modifying-code)  
+&nbsp; [1. Set up](#1-Set-up)    
+&nbsp; [2. Modifying code](#Modifying-code)  
 &nbsp; [Testing code](#Testing-code)
 &nbsp; [Create new package](#Create-package)
 
-### Set up
+### 1.Set up
 - In GitHub desktop, current branch tab (top center) :  
   - Create a new branck: -> New branch -> Name (e.g. v004)   
   - Select the created new branch  
