@@ -12,7 +12,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 ## UPGRADE PACKAGE
 
-**From version 0.0.4: Working with GitHub branches and Travis CI**  
+**From version 0.0.4: Working with GitHub branches**  
 
 &nbsp; [Set up](#Set-up)    
 &nbsp; [Modifying code](#Modifying-code)  
