@@ -4,7 +4,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 [Upgrade package](#upgrade-package)  
 
-[Create package](#create-new-package)   
+[Create package from scratch](#create-new-package-from scratch)   
 
 
 --- 
@@ -84,40 +84,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
     Select the new kernel from the notebook (top-right)
 
 
-### Testing code  
-- Make sure you are in virtual environment:  
-    ```
-    source pyKNEEr/bin/activate
-    [to finish]
-    ```
-    
-    
-### Create new package
-- Update version number in `setup.py`  
-- Add new files (if any) to `__init__.py`
-- Create the package
-  ```
-  #cd to setup.py folder, not in virtual environment
-  python3 setup.py sdist bdist_wheel
-  ```
-  It creates ``dist/*.whl``, which is the executable
-
-
----
- 
- 
-**For version 0.0.3**  
-&nbsp; [Trying new code](#trying-new-code)  
-&nbsp; [Create the new package](#create-the-new-package)     
-&nbsp; [Test the new package](#test-the-new-package)     
-&nbsp; [Release](#release)     
-
-
-- Activate the virtual environment  
-  ```
-  source pip/bin/activate
-  ```
-### Trying new code  
+(When Trying new code  
 - Uninstall current version  
   ```
   pip uninstall pykneer
@@ -129,19 +96,29 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
     ```
     Note: package is installed in the directory where `setup.py` is, not in the parent directory
   - Re-import pykneer (top of notebook)
+)
 
 
-### Create the new package
+### Testing code  
+- Make sure you are in virtual environment:  
+    ```
+    source pyKNEEr/bin/activate
+    [to finish]
+    ```
+    
+----     
+### Create new package
 - Update version number in `setup.py`  
 - Add new files (if any) to `__init__.py`
 - Create the package
   ```
+  #cd to setup.py folder, not in virtual environment
   python3 setup.py sdist bdist_wheel
   ```
   It creates ``dist/*.whl``, which is the executable
-  
 
-### Try new package  
+
+### Test new package  
 - Create a new virtual environment and activate it
   ```
   virtualenv test_release
@@ -167,7 +144,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   - Click the button in the top right of the notebook and select the kernel in test_release  
   - Run all the notebooks of the demo
 
-### Release   
+### Release new package 
 - Upload to pypi  
   ```
   python3 -m twine upload dist/*
@@ -183,7 +160,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 ---
 
-## CREATE PACKAGE
+## CREATE PACKAGE FROM SCRATCH
 
 &nbsp; [Create a virtual environment](#create-a-virtual-environment)  
 &nbsp; [Folder and file structure](#folder-and-file-structure)  
