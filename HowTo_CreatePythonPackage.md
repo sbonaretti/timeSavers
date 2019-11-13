@@ -91,11 +91,13 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
     [to finish]
     ```
     
+    
 ### Create new package
 - Update version number in `setup.py`  
 - Add new files (if any) to `__init__.py`
 - Create the package
   ```
+  #cd to setup.py folder, not in virtual environment
   python3 setup.py sdist bdist_wheel
   ```
   It creates ``dist/*.whl``, which is the executable
