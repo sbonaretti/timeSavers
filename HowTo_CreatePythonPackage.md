@@ -4,7 +4,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 [Upgrade package](#upgrade-package)  
 
-[Create package](#create-package)   
+[Create package](#create-new-package)   
 
 
 --- 
@@ -17,6 +17,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 &nbsp; [Set up](#Set-up)    
 &nbsp; [Modifying code](#Modifying-code)  
 &nbsp; [Testing code](#Testing-code)
+&nbsp; [Create new package](#Create-package)
 
 ### Set up
 - In GitHub desktop, current branch tab (top center) :  
@@ -87,6 +88,17 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 - Make sure you are in virtual environment:  
     ```
     source pyKNEEr/bin/activate
+    [to finish]
+    ```
+    
+### Create new package
+- Update version number in `setup.py`  
+- Add new files (if any) to `__init__.py`
+- Create the package
+  ```
+  python3 setup.py sdist bdist_wheel
+  ```
+  It creates ``dist/*.whl``, which is the executable
 
 
 ---
