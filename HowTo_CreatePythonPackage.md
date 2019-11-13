@@ -126,7 +126,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   virtualenv test_release
   source test_release/bin/activate
   ```  
-- Copy paste the new package from the directory `pip/pykneer/dist` to the directory `test_release`  
+- Copy paste the new package (`*.whl`) from the directory `pip/pykneer/dist` to the directory `test_release`  
 - Install `itk 4.3` if still needed:  
   ```
   cd test_release
