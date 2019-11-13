@@ -106,8 +106,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
     source pyKNEEr/bin/activate
     [to finish]
     ```
-    
-----     
+        
 ### 4. Create new package
 
 #### Create the package
@@ -121,7 +120,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   It creates ``dist/*.whl``, which is the executable
 
 
-### Test the package  
+#### Test the package  
 - Create a new virtual environment and activate it
   ```
   virtualenv test_release
