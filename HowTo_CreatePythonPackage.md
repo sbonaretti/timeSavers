@@ -15,10 +15,10 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 **From version 0.0.4: Working with GitHub branches**  
 
 &nbsp; [1. Set up](#Set-up)    
-&nbsp; [2. Modifying code](#-Modifying-code)  
-&nbsp; [3. Testing code](#Testing-code)  
-&nbsp; [4. Create new package](#Create-new-package)  
-&nbsp; [5. Release new package](#Release-new-package)  
+&nbsp; [2. Modifying code](#Modifying-code)  
+&nbsp; [3. Testing code](#3-Testing-code)  
+&nbsp; [4. Create new package](#4.-Create-new-package)  
+&nbsp; [5. Release new package](#-Release-new-package)  
 
 ### 1.Set up
 - In GitHub desktop, current branch tab (top center) :  
