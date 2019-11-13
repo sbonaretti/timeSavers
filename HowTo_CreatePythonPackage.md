@@ -160,11 +160,15 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 - Merge the release with Zenodo  
 
-- Install new version locally: `pip install pykneer --upgrade`
+- Install new version locally: 
+  ```
+  pip install pykneer --upgrade
+  pip show pykneer
+  ```
 
 
 
----
+------------------------------------------------------------------------------------------------
 
 ## CREATE NEW PACKAGE FROM SCRATCH
 
