@@ -140,6 +140,9 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 - Install notebook in virtual environment (it might already be installed):
   ```
   pip install ipykernel
+  ```
+- Create kernel in virtual environment (it might already be present):
+  ``` 
   python -m ipykernel install --user --name=test_release
   ```
 - In `test_release` copy the `demo/input` folder, open the notebooks and  
