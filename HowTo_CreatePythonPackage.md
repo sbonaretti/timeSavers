@@ -152,7 +152,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 ### 5. Release new package 
 - Upload to pypi:  
   ```
-  # cd to pyKNEEr/pykneer
+  #cd to pyKNEEr/pykneer
   python3 -m twine upload dist/*
   ```
 
