@@ -20,7 +20,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 &nbsp; [4. Create new package](#4-Create-new-package)  
 &nbsp; [5. Release new package](#5-Release-new-package)  
 
-### 1.Set up
+### 1. Set up
 - In GitHub desktop, current branch tab (top center) :  
   - Create a new branck: -> New branch -> Name (e.g. v004)   
   - Select the created new branch  
@@ -33,7 +33,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 - Manually update version number in `setup.py`  
 
 
-### 2.Modifying code 
+### 2. Modifying code 
 - **Spyder** 
   - Make sure you are in virtual environment:  
     ```
