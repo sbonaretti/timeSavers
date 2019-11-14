@@ -158,12 +158,25 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 - Commit the new version to GitHub
 
-- Create the release on GitHub  
-  - Go to release (in the second top bar)  
-  - Click on `Draft a new release` -> Fill out: Tag version (e.g. v0.0.4), Release Title  (e.g. pyKNEEr 0.0.4)
-  - `Upldate release`
+- Add release to Zenodo for DOI
+  
+  FIRST TIME (see https://github.com/QMSKI/TransparentQMSKI/wiki/How-To:-Upload-to-Zenodo#github_code)
+  Note: Do not create release on GitHub  
+  - Go to menu next to email on top-right and click `GitHub`
+  - Select the repository name   
+    - 1. Flip the switch  (press the button)
+    - 2. Create the release (press the button). In GitHub:
+      - Fill out: Tag version (e.g. v0.0.4), Release Title  (e.g. pyKNEEr 0.0.4)
+      - `Publish release`
+  - Go back to Zenodo (https://zenodo.org/account/settings/github/) and click on your repository:
+    - Get your DOI badge for your website, documents, etc.
+    - Click the DOI link
+    - Once in your new data page, click Edit to fill out your metadata. Make sure to:
+      - Add the QMKSI community
+      - Add the license
+      - Save and Publish
 
-- Merge the release with Zenodo 
+
 
 - Install new version locally: 
   ```
