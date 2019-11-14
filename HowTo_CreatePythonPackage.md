@@ -161,7 +161,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 - Create the release on GitHub  
   - Go to release (in the second top bar)  
   - Click on `Draft a new release` -> Fill out: Tag version (e.g. v0.0.4), Release Title  (e.g. pyKNEEr 0.0.4)
-  
+  - `Upldate release`
 
 - Merge the release with Zenodo 
 
