@@ -156,9 +156,14 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   python3 -m twine upload dist/*
   ```
 
-- Commit the new version to GitHub and create the release  
+- Commit the new version to GitHub
 
-- Merge the release with Zenodo  
+- Create the release on GitHub  
+  - Go to release (in the second top bar)  
+  - Click on `Draft a new release` -> Fill out: Tag version (e.g. v0.0.4), Release Title  (e.g. pyKNEEr 0.0.4)
+  
+
+- Merge the release with Zenodo 
 
 - Install new version locally: 
   ```
