@@ -63,7 +63,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
           ```
           pip uninstall pykneer
           ```  
-        - Move notebook to the source code folder
+        - Copy/paste file withfunction to modify to the notebook folder
         - Open Jupyter lab and go to the `pyKNEEr` kernel (top-right button)  
         - Add the autoreload to the top of the notebook:
           ```
@@ -76,6 +76,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
           import pykneer_io
           ```
           and not `from pykneer import pykneer_io as io`
+        - Cut/paste the new function back to the folder containing source code
         
     2. With installation of pyKNEEr release I am working on: 
 
