@@ -74,54 +74,41 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
         %load_ext autoreload 
         %autoreload 2
         ```
+        
+    2. With installation of pyKNEEr release I am working on: 
 
-2. With installation of pyKNEEr release I am working on: 
+      - Make sure you are in virtual environment:  
+        ```
+        # cd to folder /pyKNEEr/ (where the folder bin is)
+        source bin/activate
+        ```  
+      - Uninstall current version:  
+        ```
+        pip uninstall pykneer
+        ```  
+        (For ITK: installed packages are in `lib/python3.7/site-packages`)
 
-  - Make sure you are in virtual environment:  
-    ```
-    # cd to folder /pyKNEEr/ (where the folder bin is)
-    source bin/activate
-    ```  
-  - Uninstall current version:  
-    ```
-    pip uninstall pykneer
-    ```  
-    (For ITK: installed packages are in `lib/python3.7/site-packages`)
+      - Install work-in-progress version:   
+        ```
+        # cd to folder /pyKNEEr/pykneer (where the file setup.py is)
+        python setup.py develop
+        ```
+        Note: package is installed in the directory as `setup.py`, not in the parent directory  
 
-  - Install work-in-progress version:   
-    ```
-    # cd to folder /pyKNEEr/pykneer (where the file setup.py is)
-    python setup.py develop
-    ```
-    Note: package is installed in the directory as `setup.py`, not in the parent directory  
-    
-  - Launch JupyterLab from terminal:
-    ```
-    jupyter lab
-    ```  
-    To close: `crtl + c`
+      - Launch JupyterLab from terminal:
+        ```
+        jupyter lab
+        ```  
+        To close: `crtl + c`  
+        Note: make sure to re-import pyKNEEr (top of notebook)
 
-  - Use pyKNEEr's kernel if already existing. If not, create a [new kernel](https://anbasile.github.io/programming/2017/06/25/jupyter-venv/):  
-    ```
-    pip install ipykernel
-    ipython kernel install --user --name=projectname
-    ```
-    Select the new kernel from the notebook (top-right)
+      - Use pyKNEEr's kernel if already existing. If not, create a [new kernel](https://anbasile.github.io/programming/2017/06/25/jupyter-venv/):  
+        ```
+        pip install ipykernel
+        ipython kernel install --user --name=projectname
+        ```
+        Select the new kernel from the notebook (top-right)
 
-
-(When Trying new code  
-- Uninstall current version  
-  ```
-  pip uninstall pykneer
-  ```
-- Every time you modify your code  
-  - Run:   
-    ```
-    python setup.py develop
-    ```
-    Note: package is installed in the directory where `setup.py` is, not in the parent directory
-  - Re-import pykneer (top of notebook)
-)
 
 
 ### 3. Testing code  
