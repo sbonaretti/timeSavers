@@ -69,6 +69,8 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   - Open Jupyter lab and go to the `pyKNEEr` kernel (top-right button)  
   - Add the autoreload to the top of the notebook:
     ```
+    %load_ext autoreload # make sure there are no spaces after this command
+    %autoreload 2
     ```
 
 2. With installation of pyKNEEr release I am working on: 
@@ -103,7 +105,6 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
     ipython kernel install --user --name=projectname
     ```
     Select the new kernel from the notebook (top-right)
-
 
 
 (When Trying new code  
