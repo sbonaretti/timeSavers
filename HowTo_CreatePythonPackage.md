@@ -48,67 +48,67 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
   - Fix bugs / Implement and test new code in spyder - leave the Jupyter notebooks to the very end (they are the user interface!) 
   
-- **PyCharm**
-  - Used for the editing of the code documentation because it does grammar check   
-  - Not used for coding because it does not have the iphython module (need to run the whole function to debug, like VisualStudio)
   
 - **Jupyter notebooks** (user interface)  
 
   - 2 ways: 
     1. pyKNEEr not installed:
 
-      - Make sure you are in virtual environment:  
-        ```
-        # cd to folder /pyKNEEr/ (where the folder bin is)
-        source bin/activate
-        ```  
-      - Uninstall current version:  
-        ```
-        pip uninstall pykneer
-        ```  
-      - Move notebook to the source code folder
-      - Open Jupyter lab and go to the `pyKNEEr` kernel (top-right button)  
-      - Add the autoreload to the top of the notebook:
-        ```
-        # Make sure there are no empty spaces at the end of the lines 
-        %load_ext autoreload 
-        %autoreload 2
-        ```
+        - Make sure you are in virtual environment:  
+          ```
+          # cd to folder /pyKNEEr/ (where the folder bin is)
+          source bin/activate
+          ```  
+        - Uninstall current version:  
+          ```
+          pip uninstall pykneer
+          ```  
+        - Move notebook to the source code folder
+        - Open Jupyter lab and go to the `pyKNEEr` kernel (top-right button)  
+        - Add the autoreload to the top of the notebook:
+          ```
+          # Make sure there are no empty spaces at the end of the lines 
+          %load_ext autoreload 
+          %autoreload 2
+          ```
         
     2. With installation of pyKNEEr release I am working on: 
 
-      - Make sure you are in virtual environment:  
-        ```
-        # cd to folder /pyKNEEr/ (where the folder bin is)
-        source bin/activate
-        ```  
-      - Uninstall current version:  
-        ```
-        pip uninstall pykneer
-        ```  
-        (For ITK: installed packages are in `lib/python3.7/site-packages`)
+        - Make sure you are in virtual environment:  
+          ```
+          # cd to folder /pyKNEEr/ (where the folder bin is)
+          source bin/activate
+          ```  
+        - Uninstall current version:  
+          ```
+          pip uninstall pykneer
+          ```  
+          (For ITK: installed packages are in `lib/python3.7/site-packages`)
 
-      - Install work-in-progress version:   
-        ```
-        # cd to folder /pyKNEEr/pykneer (where the file setup.py is)
-        python setup.py develop
-        ```
-        Note: package is installed in the directory as `setup.py`, not in the parent directory  
+        - Install work-in-progress version:   
+          ```
+          # cd to folder /pyKNEEr/pykneer (where the file setup.py is)
+          python setup.py develop
+          ```
+          Note: package is installed in the directory as `setup.py`, not in the parent directory  
 
-      - Launch JupyterLab from terminal:
-        ```
-        jupyter lab
-        ```  
-        To close: `crtl + c`  
-        Note: make sure to re-import pyKNEEr (top of notebook)
+        - Launch JupyterLab from terminal:
+          ```
+          jupyter lab
+          ```  
+          To close: `crtl + c`  
+          Note: make sure to re-import pyKNEEr (top of notebook)
 
-      - Use pyKNEEr's kernel if already existing. If not, create a [new kernel](https://anbasile.github.io/programming/2017/06/25/jupyter-venv/):  
-        ```
-        pip install ipykernel
-        ipython kernel install --user --name=projectname
-        ```
-        Select the new kernel from the notebook (top-right)
+        - Use pyKNEEr's kernel if already existing. If not, create a [new kernel](https://anbasile.github.io/programming/2017/06/25/jupyter-venv/):  
+          ```
+          pip install ipykernel
+          ipython kernel install --user --name=projectname
+          ```
+          Select the new kernel from the notebook (top-right)
 
+- **PyCharm**
+  - Used for the editing of the code documentation because it does grammar check   
+  - Not used for coding because it does not have the iphython module (need to run the whole function to debug, like VisualStudio)
 
 
 ### 3. Testing code  
