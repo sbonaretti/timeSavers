@@ -55,24 +55,25 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 - **Jupyter notebooks** (user interface)  
 
 2 ways: 
+  1. pyKNEEr not installed:
 
-1. pyKNEEr not installed:
-
-  - Make sure you are in virtual environment:  
-    ```
-    # cd to folder /pyKNEEr/ (where the folder bin is)
-    source bin/activate
-    ```  
-  - Uninstall current version:  
-    ```
-    pip uninstall pykneer
-    ```  
-  - Open Jupyter lab and go to the `pyKNEEr` kernel (top-right button)  
-  - Add the autoreload to the top of the notebook:
-    ```
-    %load_ext autoreload # make sure there are no spaces after this command
-    %autoreload 2
-    ```
+    - Make sure you are in virtual environment:  
+      ```
+      # cd to folder /pyKNEEr/ (where the folder bin is)
+      source bin/activate
+      ```  
+    - Uninstall current version:  
+      ```
+      pip uninstall pykneer
+      ```  
+    - Move notebook to the source code folder
+    - Open Jupyter lab and go to the `pyKNEEr` kernel (top-right button)  
+    - Add the autoreload to the top of the notebook:
+      ```
+      # Make sure there are no empty spaces at the end of the lines 
+      %load_ext autoreload 
+      %autoreload 2
+      ```
 
 2. With installation of pyKNEEr release I am working on: 
 
