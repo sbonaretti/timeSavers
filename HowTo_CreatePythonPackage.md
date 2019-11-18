@@ -53,9 +53,10 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   - Not used for coding because it does not have the iphython module (need to run the whole function to debug, like VisualStudio)
   
 - **Jupyter notebooks** (user interface)  
+
 2 ways: 
 
-1. pyKNEEr not installed
+1. pyKNEEr not installed:
 
   - Make sure you are in virtual environment:  
     ```
