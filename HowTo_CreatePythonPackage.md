@@ -52,7 +52,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 - **Jupyter notebooks** (user interface)  
 
   - 2 ways: 
-    1. pyKNEEr not installed:
+    1. pyKNEEr not installed (quick and dirty way):
 
         - Make sure you are in virtual environment:  
           ```
@@ -71,6 +71,11 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
           %load_ext autoreload 
           %autoreload 2
           ```
+          and add the module to import, not the package:  
+          ```
+          import pykneer_io
+          ```
+          and not `from pykneer import pykneer_io as io`
         
     2. With installation of pyKNEEr release I am working on: 
 
