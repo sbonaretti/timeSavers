@@ -5,7 +5,7 @@ In table of content:
 ```
 [loading data](#loading)
 ```
-- To add space at the beginning of item
+- To add space character at the beginning of item
   ```
   &nbsp; # repeat the command for more spaces
   ```  
