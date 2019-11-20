@@ -15,3 +15,15 @@ jupyter labextension install @jupyterlab/toc
 ```
 from ipywidgets import *
 ```
+
+## Slider
+- Declare slider:  
+  ```
+  slider = FloatSlider( # also IntSlider)
+      value=7.5,
+      min=5.0,
+      max=10.0,
+      step=0.01,
+      description='Input'
+      )
+  ```
