@@ -10,3 +10,8 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager
 jupyter labextension install @pyviz/jupyterlab_pyviz
 jupyter labextension install @jupyterlab/toc
 ```
+
+# Import
+```
+from ipywidgets import *
+```
