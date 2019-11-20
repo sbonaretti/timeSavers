@@ -11,7 +11,7 @@ jupyter labextension install @pyviz/jupyterlab_pyviz
 jupyter labextension install @jupyterlab/toc
 ```
 
-# Import
+## Import
 ```
 from ipywidgets import *
 ```
