@@ -39,7 +39,6 @@ jupyter kernelspec uninstall unwanted-kernel-name # to uninstall your unwanted-k
 
 ## Installing widgets
 
-See: https://github.com/sbonaretti/timeSavers/blob/master/HowTo_ipywidgets.md
 
 ```
 pip install ipywidgets
