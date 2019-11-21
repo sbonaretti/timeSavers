@@ -63,20 +63,23 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
           ```
           pip uninstall pykneer
           ```  
-        - Copy/paste file withfunction to modify to the notebook folder
         - Open Jupyter lab and go to the `pyKNEEr` kernel (top-right button)  
-        - Add the autoreload to the top of the notebook:
-          ```
-          # Make sure there are no empty spaces at the end of the lines 
-          %load_ext autoreload 
-          %autoreload 2
-          ```
-          and add the module to import, not the package:  
-          ```
-          import pykneer_io
-          ```
-          and not `from pykneer import pykneer_io as io`
-        - Cut/paste the new function back to the folder containing source code
+        - To the top of the notebook add: 
+          - autoreload:
+            ```
+            # Make sure there are no empty spaces at the end of the lines 
+            %load_ext autoreload 
+            %autoreload 2
+            ```
+          - the path of the code folder: 
+            ```
+            import sys
+            sys.path.append('/Users/path_to_pykneer/pykneer')
+            ```
+          - the module to import (comment out the lines to import the package, e.g. `from pykneer import pykneer_io as io`):  
+            ```
+            import pykneer_io as io
+            ```
         
     2. With installation of pyKNEEr release I am working on: 
 
