@@ -3,7 +3,10 @@
 Definitions:  
 - [HTML](#html) is to create a structure to a page - we say what things are   
 - [CSS](#css) is for the style  
-- [JavaScript](#javascript) is for interaction and adding changes to the page. Changes are due to the data or user interaction  
+- [JavaScript](#javascript) is for interaction and adding changes to the page. Changes are due to the data or user interaction 
+
+## Editor
+- Atom with Atom HTML preview plugin (https://github.com/harmsk/atom-html-preview). To start it: control+shift+H. Updates when saving file
 
 
 ## HTML   
