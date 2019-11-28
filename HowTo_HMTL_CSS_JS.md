@@ -3,6 +3,7 @@
 Definitions:  
 - [HTML](#html) is to create a structure to a page - we say what things are   
 - [CSS](#css) is for the style  
+- [Bootrap](#bootstrap) is a CSS library implemented at Twitter to create flexible templates that adapt for phones
 - [JavaScript](#javascript) is for interaction and adding changes to the page. Changes are due to the data or user interaction 
 
 ## Editor
@@ -72,6 +73,12 @@ Definitions:
 - Margin vs padding:  
   - *margin* is the distance between an HTML element and the page border  
   - *padding* is the distance between the page border and the text inside the HTML element  
+
+## Bootstrap  
+- There are two layouts:  
+  - Flexbox: divides the page in columns  
+  - Grid: divides the page in squares (rows and columns)
+
 
 ## javascript    
 - Variables:  
