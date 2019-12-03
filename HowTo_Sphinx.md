@@ -147,7 +147,7 @@ Example for figure usage:
 ## Adding Google Analytics (GA) tracking number to website  
 
 ### 1. Getting the tracking number from GA
-Make sure you already have to have the website address  
+Make sure you already have the website address  
 
 Go to Google Analytics, and then:  
 - Go to Admin (bottom left)  
