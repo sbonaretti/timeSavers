@@ -1,9 +1,5 @@
 # How to: Sphinx
 
-[Install Sphinx](#Install-Sphinx)
-[Set up the site](#set-up-the-site)
-[Language: Markdown (.md files)](#-Language-Markdown-md-files)
-
 Sphinx is the package to create websites in pyton.   
 
 Steps done in `terminal`.
@@ -151,7 +147,11 @@ Example for figure usage:
 ## Adding Google Analytics (GA) tracking number to website  
 
 ### 1. Getting the tracking number from GA
-(to be added)  
+Make sure you already have to have the website address  
+
+Go to Google Analytics, and then:  
+- Go to Admin (bottom left)  
+- Create account
 
 ### 2. Adding tracking number to website 
 If the website template already includes support for GA tracking number, enter it as indicated in the template instructions (usually in `confy.py`).  
