@@ -1,5 +1,7 @@
 # How to: Sphinx
 
+[Set up the site](#set-up-the-site)
+
 Sphinx is the package to create websites in pyton.   
 
 Steps done in `terminal`.
