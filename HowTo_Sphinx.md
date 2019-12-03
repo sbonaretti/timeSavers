@@ -1,6 +1,8 @@
 # How to: Sphinx
 
+[Install Sphinx](#Install-Sphinx)
 [Set up the site](#set-up-the-site)
+[Language: Markdown (.md files)](#-Language-Markdown-md-files)
 
 Sphinx is the package to create websites in pyton.   
 
