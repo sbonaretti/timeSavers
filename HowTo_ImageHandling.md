@@ -5,7 +5,7 @@
 
 ### Convert .pdf to .eps using Inkscape (e.g. for scientific journals) 
 - Right-click on file -> Open with Inkscape 
-  - Parameters:  Internal import + comment out everything else
+  - Parameters:  Internal import + Embed images + comment out everything else
 - File -> Save as -> .eps  -> Save 
   - Parameters:  Default + 300 dpi
 
