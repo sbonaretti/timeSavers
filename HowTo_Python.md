@@ -118,6 +118,7 @@
 - To upgrade a package: `pip install <packageName> --upgrade`  
 - To remove a package: `pip uninstall <packageName>`
 - To list packages: `pip freeze`   
+- To see version of package: `pip show <packageName>`
 
 ---
 
