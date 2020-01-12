@@ -235,6 +235,8 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 ### Create a virtual environment
 ```
+# Install virtualenv if not already present
+pip install virtualenv
 # Go to folder
 cd <folder>
 # Create virtual environment
