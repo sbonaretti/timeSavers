@@ -141,13 +141,13 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 
 #### Test the package  
-- Create a new virtual environment and activate it
+- Create a new virtual environment in the demo folder (if not existing) and activate it
   ```
-  virtualenv test_release
-  source test_release/bin/activate
+  virtualenv demo
+  source demo/bin/activate
   ```  
-- Copy paste the new package (`*.whl`) from the directory `pip/pykneer/dist` to the directory `test_release`  
-- Install `itk 4.3` if still needed:  
+- Copy paste the new package (`*.whl`) from the directory `pip/pykneer/dist` to the directory `demo`  
+- (NOT needed anymore - Install `itk 4.3` if still needed: ) 
   ```
   cd test_release
   pip install itk-core==4.13.1.post1 itk-numerics==4.13.1.post1 itk-filtering==4.13.1.post1 itk-io==4.13.1.post1 itk-segmentation==4.13.1.post1 itk-registration==4.13.1.post1 --force-reinstall --no-cache-dir
