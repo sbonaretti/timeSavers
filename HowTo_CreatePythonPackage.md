@@ -147,8 +147,9 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   source demo/bin/activate
   ```  
 - Copy paste the new package (`*.whl`) from the directory `pip/pykneer/dist` to the directory `demo`  
-- (NOT needed anymore - Install `itk 4.3` if still needed: ) 
+- () 
   ```
+  # NOT needed anymore - Install `itk 4.3` if still needed: 
   cd test_release
   pip install itk-core==4.13.1.post1 itk-numerics==4.13.1.post1 itk-filtering==4.13.1.post1 itk-io==4.13.1.post1 itk-segmentation==4.13.1.post1 itk-registration==4.13.1.post1 --force-reinstall --no-cache-dir
   pip install itk==4.13.1.post1
@@ -157,16 +158,12 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   ```
   pip install pykneer-0.0.3-py3-none-any.whl # use autofill to install the new version
   ```
-- Install notebook in virtual environment (it might already be installed):
-  ```
-  pip install ipykernel
-  ```
 - Create kernel in virtual environment (it might already be present):
   ``` 
-  python -m ipykernel install --user --name=test_release
+  python -m ipykernel install --user --name=demo
   ```
-- In `test_release` copy the `demo/input` folder, open the notebooks and  
-  - Click the button in the top right of the notebook and select the kernel in test_release  
+- Open the notebooks and  
+  - Click the button in the top right of the notebook and select the kernel in demo  
   - Run all the notebooks of the demo
 
 ### 5. Release new package 
