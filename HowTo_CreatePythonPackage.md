@@ -177,6 +177,11 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 - Add release to Zenodo for DOI
   
+  AFTER FIRST TIME  
+  - In GitHub, go to tab `Release` and the click `Draft a new release`  
+  - Tag version: `v0.0.5` Release title: `pyKNEEr 0.0.5`  
+  - Click `Update release`
+  
   FIRST TIME (see https://github.com/QMSKI/TransparentQMSKI/wiki/How-To:-Upload-to-Zenodo#github_code)
   Note: Do not create release on GitHub  
   - Go to menu next to email on top-right and click `GitHub`
