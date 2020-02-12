@@ -30,7 +30,7 @@ In the terminal:
 - Save changes by pressing: ctrl+o; return;
 - Close file by pressing: ctrl+x
 - Activate changes by typing: 
-  - Mac: 
+  - Mac:   
     ``source .bash_profile``  
-  - Linux: 
+  - Linux:   
     ``source .bashrc``
