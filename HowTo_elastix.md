@@ -29,4 +29,8 @@ In the terminal:
 
 - Save changes by pressing: ctrl+o; return;
 - Close file by pressing: ctrl+x
-- Activate changes by typing: ``source .bash_profile``
+- Activate changes by typing: 
+  - Mac: 
+    ``source .bash_profile``  
+  - Linux: 
+    ``source .bashrc``
