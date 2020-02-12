@@ -9,9 +9,9 @@ In the terminal:
 - Type: ``cd``
 - Type: ``ls -a`` (shows also hidden files)
 - Open or create:
-  - Mac: 
+  - Mac:   
     ``.bash_profile`` by typing: ``nano .bash_profile``  
-  - Linux: 
+  - Linux:   
     ``.bashrc`` by typing: ``nano .bashrc`` 
 - Type: 
   - Mac:
