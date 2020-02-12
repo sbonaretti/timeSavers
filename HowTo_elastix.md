@@ -8,7 +8,11 @@ In the terminal:
 
 - Type: ``cd``
 - Type: ``ls -a`` (shows also hidden files)
-- Open or create ``.bash_profile`` by typing: ``nano .bash_profile``
+- Open or create:
+  - Mac: 
+    ``.bash_profile`` by typing: ``nano .bash_profile``  
+  - Linux: 
+    ``.bashrc`` by typing: ``nano .bashrc`` 
 - Type: 
   - Mac:
     ```
