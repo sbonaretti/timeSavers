@@ -1,3 +1,5 @@
+# How to: Anaconda
+
 ## Update to latest version
 
 Documentation [here](https://docs.anaconda.com/anaconda/install/update-version/)
