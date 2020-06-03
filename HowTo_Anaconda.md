@@ -21,10 +21,15 @@ conda install -c conda-forge jupyterlab
 ```
 and relaunch anaconda
 
-## Update JupyterLab extensions
-```
-jupyter labextension update --all
-```
+## JupyterLab extensions
+- Update:
+  ```
+  jupyter labextension update --all
+  ```
+- List:
+  ```
+  jupyter labextension list
+  ```
 
 ## Conda cheat sheet
 Here: https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf
