@@ -10,10 +10,12 @@ For conversion from markdown (.md) to .pdf
 ([manual](https://pandoc.org/MANUAL.pdf), from page 41)
 
 There are several options:
-- YAML file
-- command line
-
-- https://wkhtmltopdf.org/downloads.html
+- YAML file (to understand)
+- in command line while calling pandoc:
+  - `-V linkcolor:blue`  
+- using `.css` 
+  - install: https://wkhtmltopdf.org/downloads.html
+  - build: `pandoc -t html --css style.css input.md -o output.pdf`
 
 
 ## Fonts: 
