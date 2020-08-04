@@ -3,6 +3,8 @@
 
 For conversion from markdown (.md) to .pdf
 
+## Build the .pdf
+`pandoc file_name.md -o file_name.pdf`
 
 ## Style
 Two option:
