@@ -3,6 +3,9 @@
 
 For conversion from markdown (.md) to .pdf
 
+## Good blogs:
+- https://learnbyexample.github.io/tutorial/ebook-generation/customizing-pandoc/
+
 ## Build the .pdf
 `pandoc file_name.md -o file_name.pdf`
 
