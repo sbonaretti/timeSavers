@@ -12,10 +12,13 @@ For conversion from markdown (.md) to .pdf
 There are several options:
 - YAML file (to understand)
 - in command line while calling pandoc:
-  - `-V linkcolor:blue`  
-- using `.css` 
+  - `pandoc input.md -V linkcolor:blue -o output.pdf`  
+- Using `.css` 
   - install: https://wkhtmltopdf.org/downloads.html
   - build: `pandoc -t html --css style.css input.md -o output.pdf`
+- Using latex commands:
+  - Create file with style: e.g. `mystyle.pandoc`
+  - call it when building: `pandoc input.md -H mystylefile.pandoc -o output.pdf`
 
 
 ## Fonts: 
