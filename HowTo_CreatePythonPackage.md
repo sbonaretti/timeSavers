@@ -54,29 +54,29 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
   - 2 ways: 
     1. pyKNEEr not installed (quick and dirty way):
 
-        - Make sure you are in virtual environment:  
+        1. Make sure you are in virtual environment:  
           ```
           # cd to folder /pyKNEEr/ (where the folder bin is)
           source bin/activate
           ```  
-        - Uninstall current version:  
+        2. Uninstall current version:  
           ```
           pip uninstall pykneer
           ```  
-        - Open Jupyter lab and go to the `pyKNEEr` kernel (top-right button)  
+        3. Open Jupyter lab and go to the `pyKNEEr` kernel (top-right button)  
         - To the top of the notebook add: 
-          - autoreload:
+          1. autoreload:
             ```
             # Make sure there are no empty spaces at the end of the lines 
             %load_ext autoreload 
             %autoreload 2
             ```
-          - the path of the code folder: 
+          2. the path of the code folder: 
             ```
             import sys
             sys.path.append('/Users/path_to_pykneer/pykneer')
             ```
-          - the module to import (comment out the lines to import the package, e.g. `from pykneer import pykneer_io as io`):  
+          3. the module to import (comment out the lines to import the package, e.g. `from pykneer import pykneer_io as io`):  
             ```
             import pykneer_io as io
             ```
