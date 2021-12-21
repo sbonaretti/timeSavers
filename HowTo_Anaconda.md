@@ -8,18 +8,22 @@ conda update anaconda
 ```
 
 ## Update spyder 
-If not updated with `conda update anaconda`, install spyder specifying the version, e.g.
+If not updated with `conda update anaconda`:
+```
+conda update spyder
+```
+or install spyder specifying the version, e.g.:
 ```
 conda install spyder=4.0.1
 ```
-and relaunch anaconda
+and relaunch Anaconda
 
 ## Update JupyterLab
 If not updated with `conda update anaconda`:
 ```
 conda install -c conda-forge jupyterlab
 ```
-and relaunch anaconda
+and relaunch Anaconda
 
 ## JupyterLab extensions
 - Update:
