@@ -9,4 +9,6 @@
   - For subsequent updates: `pdoc module_name --html --force` 
 
 - Notes about Numpy docstring syntax: 
-  - Use the plural for `Parameters` and `Returns` 
+  - Compatible with markdown
+  - Use the plural for `Parameters` and `Returns`   
+  - 
