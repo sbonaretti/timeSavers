@@ -7,3 +7,6 @@
 - Documentation for a module (i.e. single file)
   - First time creation: `pdoc module_name --html`
   - For subsequent updates: `pdoc module_name --html --force` 
+
+- Notes about Numpy docstring syntax: 
+  - Use the plural for `Parameters` and `Returns` 
