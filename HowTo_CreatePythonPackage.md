@@ -22,7 +22,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 4. Test package using TestPypi (in case of error, package version number cannot be reused. Use 4th decimal: e.g. 0.0.6.1):
     ```
     python3 -m twine upload --repository testpypi dist/*                     # upload
-    python3 -m pip install --index-url https://test.pypi.org/simple pykneer==0.0.6     # install package to test; specify version
+    python3 -m pip install --index-url https://test.pypi.org/simple pykneer==0.0.6.1     # install package to test; specify version
     ```
 4. Uploade package to pypi:   
    Recreate the distribution with the right version number. e.g. 0.0.6  
