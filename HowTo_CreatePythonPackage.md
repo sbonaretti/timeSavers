@@ -19,12 +19,13 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
    python3 setup.py sdist bdist_wheel
    ```
    They go to the folder `dist`, automatically created 
-4. Test package using TestPypi (in case of error, package version number cannot be reused):
+4. Test package using TestPypi (in case of error, package version number cannot be reused. Use 4th decimal: e.g. 0.0.6.1):
     ```
     python3 -m twine upload --repository testpypi dist/* # upload
     pip3 install --index-url https://test.pypi.org/simple pykneer # install package to test
     ```
-4. Uploade package to pypi:     
+4. Uploade package to pypi:   
+   Recreate the distribution with the right version number. e.g. 0.0.6  
    ```
    python3 -m twine upload dist/* 
    ``` 
