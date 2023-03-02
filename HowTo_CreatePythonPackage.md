@@ -14,13 +14,21 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 ### --- The very fast way --- 
 1. Update package version in `setup.py` 
-2. Create package files: `python3 setup.py sdist bdist_wheel`. They go to the folder `dist`, automatically created 
-3. Test package using TestPypi (in case of error, package version number cannot be reused):
+2. Create package files:     
+   ```
+   python3 setup.py sdist bdist_wheel
+   ```
+   They go to the folder `dist`, automatically created 
+4. Test package using TestPypi (in case of error, package version number cannot be reused):
     ```
     python3 -m twine upload --repository testpypi dist/* # upload
     pip3 install --index-url https://test.pypi.org/simple pykneer # install package to test
     ```
-4. Uploade package to pypi: `python3 -m twine upload dist/*` (`pip install twine`, if not already installed)
+4. Uploade package to pypi:     
+   ```
+   python3 -m twine upload dist/* 
+   ``` 
+   (`pip install twine`, if not already installed)
 
 ### --- The fast way --- 
 **From version 0.0.4: Working with GitHub branches**  
