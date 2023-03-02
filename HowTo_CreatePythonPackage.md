@@ -14,7 +14,7 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 
 ### --- Very fast way --- 
 1. Update package version in `setup.py` 
-2. Create `.tar.gz` file: `python3 setup.py sdist `. It goes in the folder `dist`, automatically created 
+2. Create package files: `python3 setup.py sdist bdist_wheel`. They go to the folder `dist`, automatically created 
 3. Uploade package to pypi: `python3 -m twine upload dist/*` (`pip install twine`, if not already installed)
 
 ### --- Fast way --- 
