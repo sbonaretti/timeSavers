@@ -21,8 +21,8 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
    They go to the folder `dist`, automatically created 
 4. Test package using TestPypi (in case of error, package version number cannot be reused. Use 4th decimal: e.g. 0.0.6.1):
     ```
-    python3 -m twine upload --repository testpypi dist/* # upload
-    pip3 install --index-url https://test.pypi.org/simple pykneer # install package to test
+    python3 -m twine upload --repository testpypi dist/*                     # upload
+    pip3 install --index-url https://test.pypi.org/simple pykneer==0.0.6     # install package to test; specify version
     ```
 4. Uploade package to pypi:   
    Recreate the distribution with the right version number. e.g. 0.0.6  
