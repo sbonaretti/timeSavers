@@ -13,19 +13,15 @@ This is the way I did/am doing for *pyKNEEr* - Learning in progress
 ## UPGRADE PACKAGE
 
 ### --- The very fast way --- 
-1. Update package version in `setup.py` 
-2. Create package files:     
+1. Update package version in `setup.py` (note: the first time, use the previous version number with a 4th decimal to test it e.g. 0.0.6.1 for version 0.0.7; Pypi does not allow overwriting package versions in case of errors)
+2. Create package files :     
    ```
    python3 setup.py sdist bdist_wheel
    ```
    They go to the folder `dist`, automatically created 
-4. Test package using TestPypi (in case of error, package version number cannot be reused. Use 4th decimal: e.g. 0.0.6.1):
-    ```
-    python3 -m twine upload --repository testpypi dist/*                     # upload
-    python3 -m pip install --index-url https://test.pypi.org/simple pykneer==0.0.6.1     # install package to test; specify version
-    ```
+3. Pip install the package and try it out 
 4. Uploade package to pypi:   
-   Recreate the distribution with the right version number. e.g. 0.0.6  
+   Recreate the distribution with the right version number. e.g. 0.0.7 (steps 1 and 2)  
    ```
    python3 -m twine upload dist/* 
    ``` 
